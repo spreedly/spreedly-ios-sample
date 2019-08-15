@@ -1,0 +1,6 @@
+framework module Spreedly {
+  umbrella header "Spreedly-umbrella.h"
+
+  export *
+  module * { export * }
+}

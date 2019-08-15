@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts-frameworks.sh
+${PODS_ROOT}/Adyen3DS2/Dynamic/Adyen3DS2.framework
+${BUILT_PRODUCTS_DIR}/Spreedly/Spreedly.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

@@ -1,0 +1,6 @@
+framework module Pods_SpreedlyShirtsUITests {
+  umbrella header "Pods-SpreedlyShirtsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
