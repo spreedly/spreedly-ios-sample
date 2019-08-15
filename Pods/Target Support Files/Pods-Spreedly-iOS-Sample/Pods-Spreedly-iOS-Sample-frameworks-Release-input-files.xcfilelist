@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Spreedly-iOS-Sample/Pods-Spreedly-iOS-Sample-frameworks.sh
+${PODS_ROOT}/Adyen3DS2/Dynamic/Adyen3DS2.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Spreedly/Spreedly.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

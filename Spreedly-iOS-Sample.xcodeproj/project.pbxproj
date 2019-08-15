@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E2F9A4D1578FFDC74AC92C3 /* Pods_Spreedly_iOS_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D9FCF8427AF73F1255A914 /* Pods_Spreedly_iOS_Sample.framework */; };
+		9DCA2A55230C89FA00799E89 /* SpreedlyBackend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA2A54230C89FA00799E89 /* SpreedlyBackend.swift */; };
+		B28450A42305A3BB007A91B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28450A32305A3BB007A91B6 /* Constants.swift */; };
+		B28450A62305A653007A91B6 /* CreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28450A52305A653007A91B6 /* CreditCardViewController.swift */; };
+		B2C30767230595FD0003000E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C30766230595FD0003000E /* AppDelegate.swift */; };
+		B2C30769230595FD0003000E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C30768230595FD0003000E /* ViewController.swift */; };
+		B2C3076C230595FD0003000E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C3076A230595FD0003000E /* Main.storyboard */; };
+		B2C3076E230595FF0003000E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C3076D230595FF0003000E /* Assets.xcassets */; };
+		B2C30771230595FF0003000E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C3076F230595FF0003000E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18C3B707D262D088DD04414D /* Pods-Spreedly-iOS-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spreedly-iOS-Sample.release.xcconfig"; path = "Target Support Files/Pods-Spreedly-iOS-Sample/Pods-Spreedly-iOS-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		3DAB86EAC9A6D292C4A47903 /* Pods-Spreedly-iOS-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spreedly-iOS-Sample.debug.xcconfig"; path = "Target Support Files/Pods-Spreedly-iOS-Sample/Pods-Spreedly-iOS-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		49D9FCF8427AF73F1255A914 /* Pods_Spreedly_iOS_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spreedly_iOS_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A9717BA91CA15FDE0B07DBF /* Pods-Spreedly-Sample-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spreedly-Sample-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Spreedly-Sample-iOS/Pods-Spreedly-Sample-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		93000438391FB4393B69ECF0 /* Pods-SpreedlyShirts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirts.release.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts.release.xcconfig"; sourceTree = "<group>"; };
+		933142F17466667D44306DFC /* Pods-SpreedlyShirts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirts.debug.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts.debug.xcconfig"; sourceTree = "<group>"; };
+		9DCA2A54230C89FA00799E89 /* SpreedlyBackend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreedlyBackend.swift; sourceTree = "<group>"; };
+		B28450A32305A3BB007A91B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B28450A52305A653007A91B6 /* CreditCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardViewController.swift; sourceTree = "<group>"; };
+		B2C30763230595FD0003000E /* Spreedly-iOS-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spreedly-iOS-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C30766230595FD0003000E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2C30768230595FD0003000E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2C3076B230595FD0003000E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2C3076D230595FF0003000E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2C30770230595FF0003000E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2C30772230595FF0003000E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D2CB3F8E7C67E363F072A3 /* Pods-Spreedly-Sample-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spreedly-Sample-iOS.release.xcconfig"; path = "Target Support Files/Pods-Spreedly-Sample-iOS/Pods-Spreedly-Sample-iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2C30760230595FD0003000E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2F9A4D1578FFDC74AC92C3 /* Pods_Spreedly_iOS_Sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41A9ABEA2FAF544B047E1889 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49D9FCF8427AF73F1255A914 /* Pods_Spreedly_iOS_Sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87A46AA9C1779B9972A61168 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				933142F17466667D44306DFC /* Pods-SpreedlyShirts.debug.xcconfig */,
+				93000438391FB4393B69ECF0 /* Pods-SpreedlyShirts.release.xcconfig */,
+				6A9717BA91CA15FDE0B07DBF /* Pods-Spreedly-Sample-iOS.debug.xcconfig */,
+				F8D2CB3F8E7C67E363F072A3 /* Pods-Spreedly-Sample-iOS.release.xcconfig */,
+				3DAB86EAC9A6D292C4A47903 /* Pods-Spreedly-iOS-Sample.debug.xcconfig */,
+				18C3B707D262D088DD04414D /* Pods-Spreedly-iOS-Sample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B2C3075A230595FD0003000E = {
+			isa = PBXGroup;
+			children = (
+				B2C30765230595FD0003000E /* Spreedly-iOS-Sample */,
+				B2C30764230595FD0003000E /* Products */,
+				87A46AA9C1779B9972A61168 /* Pods */,
+				41A9ABEA2FAF544B047E1889 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2C30764230595FD0003000E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2C30763230595FD0003000E /* Spreedly-iOS-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2C30765230595FD0003000E /* Spreedly-iOS-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				B28450A32305A3BB007A91B6 /* Constants.swift */,
+				B2C30766230595FD0003000E /* AppDelegate.swift */,
+				B2C30768230595FD0003000E /* ViewController.swift */,
+				B28450A52305A653007A91B6 /* CreditCardViewController.swift */,
+				B2C3076A230595FD0003000E /* Main.storyboard */,
+				B2C3076D230595FF0003000E /* Assets.xcassets */,
+				B2C3076F230595FF0003000E /* LaunchScreen.storyboard */,
+				B2C30772230595FF0003000E /* Info.plist */,
+				9DCA2A54230C89FA00799E89 /* SpreedlyBackend.swift */,
+			);
+			path = "Spreedly-iOS-Sample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2C30762230595FD0003000E /* Spreedly-iOS-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C3078B230595FF0003000E /* Build configuration list for PBXNativeTarget "Spreedly-iOS-Sample" */;
+			buildPhases = (
+				C3366DD01AA16C10128E7C0E /* [CP] Check Pods Manifest.lock */,
+				B2C3075F230595FD0003000E /* Sources */,
+				B2C30760230595FD0003000E /* Frameworks */,
+				B2C30761230595FD0003000E /* Resources */,
+				5D3738FC490E71471D4E182A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spreedly-iOS-Sample";
+			productName = SpreedlyShirts;
+			productReference = B2C30763230595FD0003000E /* Spreedly-iOS-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2C3075B230595FD0003000E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Spreedly;
+				TargetAttributes = {
+					B2C30762230595FD0003000E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B2C3075E230595FD0003000E /* Build configuration list for PBXProject "Spreedly-iOS-Sample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2C3075A230595FD0003000E;
+			productRefGroup = B2C30764230595FD0003000E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2C30762230595FD0003000E /* Spreedly-iOS-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2C30761230595FD0003000E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C30771230595FF0003000E /* LaunchScreen.storyboard in Resources */,
+				B2C3076E230595FF0003000E /* Assets.xcassets in Resources */,
+				B2C3076C230595FD0003000E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D3738FC490E71471D4E182A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Spreedly-iOS-Sample/Pods-Spreedly-iOS-Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Spreedly-iOS-Sample/Pods-Spreedly-iOS-Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Spreedly-iOS-Sample/Pods-Spreedly-iOS-Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3366DD01AA16C10128E7C0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spreedly-iOS-Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2C3075F230595FD0003000E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C30769230595FD0003000E /* ViewController.swift in Sources */,
+				B28450A62305A653007A91B6 /* CreditCardViewController.swift in Sources */,
+				B2C30767230595FD0003000E /* AppDelegate.swift in Sources */,
+				9DCA2A55230C89FA00799E89 /* SpreedlyBackend.swift in Sources */,
+				B28450A42305A3BB007A91B6 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2C3076A230595FD0003000E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C3076B230595FD0003000E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2C3076F230595FF0003000E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2C30770230595FF0003000E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2C30789230595FF0003000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2C3078A230595FF0003000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2C3078C230595FF0003000E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DAB86EAC9A6D292C4A47903 /* Pods-Spreedly-iOS-Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Spreedly-iOS-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spreedly.SpreedlySampleiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2C3078D230595FF0003000E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C3B707D262D088DD04414D /* Pods-Spreedly-iOS-Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/Spreedly-iOS-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spreedly.SpreedlySampleiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2C3075E230595FD0003000E /* Build configuration list for PBXProject "Spreedly-iOS-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C30789230595FF0003000E /* Debug */,
+				B2C3078A230595FF0003000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C3078B230595FF0003000E /* Build configuration list for PBXNativeTarget "Spreedly-iOS-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2C3078C230595FF0003000E /* Debug */,
+				B2C3078D230595FF0003000E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2C3075B230595FD0003000E /* Project object */;
+}

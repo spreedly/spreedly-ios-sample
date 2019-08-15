@@ -1,0 +1,15 @@
+//
+//  Constants.swift
+//  Spreedly-iOS-Sample
+//
+//  Created by David Santoso on 8/15/19.
+//  Copyright © 2019 Spreedly. All rights reserved.
+//
+
+import Foundation
+
+let appleMerchantId = "merchant.com.your-company.testing"
+let baseURL = "https://core.spreedly.com/v1"
+
+let environmentKey = "REPLACE ME"
+let environmentSecret = "REPLACE ME"

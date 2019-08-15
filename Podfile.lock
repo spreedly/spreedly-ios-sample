@@ -1,16 +1,19 @@
 PODS:
   - Adyen3DS2 (0.9.6)
+  - Alamofire (4.8.2)
   - Spreedly (1.0.0):
     - Adyen3DS2
-    - SwiftyJSON
-  - SwiftyJSON (5.0.0)
+    - SwiftyJSON (~> 4.0)
+  - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
+  - Alamofire
   - Spreedly (from `../spreedly-ios`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Adyen3DS2
+    - Alamofire
     - SwiftyJSON
 
 EXTERNAL SOURCES:
@@ -19,9 +22,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Adyen3DS2: b5db3035ddd05e8db134242a11e8ea5bbc20cd4b
-  Spreedly: 6d18119ead761cb523189560f50b57036badd74d
-  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Spreedly: a6295e478839d01b5806d9902d2557101f3ec280
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 5b92aa4b54ba0cd8a6edba396214e8d2dd6eda96
+PODFILE CHECKSUM: 5fe449fc7bc06b40de590565377dfa5f19fe1de3
 
 COCOAPODS: 1.7.5
