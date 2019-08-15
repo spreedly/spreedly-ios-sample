@@ -2,8 +2,8 @@ PODS:
   - Adyen3DS2 (0.9.6)
   - Spreedly (1.0.0):
     - Adyen3DS2
-    - SwiftyJSON
-  - SwiftyJSON (5.0.0)
+    - SwiftyJSON (~> 4.0)
+  - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
   - Spreedly (from `../spreedly-ios`)
@@ -19,8 +19,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Adyen3DS2: b5db3035ddd05e8db134242a11e8ea5bbc20cd4b
-  Spreedly: 6d18119ead761cb523189560f50b57036badd74d
-  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Spreedly: a6295e478839d01b5806d9902d2557101f3ec280
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
 PODFILE CHECKSUM: 5b92aa4b54ba0cd8a6edba396214e8d2dd6eda96
 

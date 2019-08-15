@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C109831B53C67DAF248400E /* Pods_SpreedlyShirtsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DF4DC9EE068E03E8814ED1 /* Pods_SpreedlyShirtsUITests.framework */; };
-		782CAE1BDCF6464E2D3E4897 /* Pods_SpreedlyShirts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83940F40B2C2A564B0D92ED8 /* Pods_SpreedlyShirts.framework */; };
+		2A10AFFD05366211E386F89C /* Pods_SpreedlyShirts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8066C7F53F03064919FF9E19 /* Pods_SpreedlyShirts.framework */; };
+		5BFB836A594BA409360348E8 /* Pods_SpreedlyShirtsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B6E5292F14CD6B0B7DBF7 /* Pods_SpreedlyShirtsTests.framework */; };
+		95A4DA90F1ADDC2B386AD725 /* Pods_SpreedlyShirtsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F360F47E23161BEF1870554 /* Pods_SpreedlyShirtsUITests.framework */; };
 		B28450A42305A3BB007A91B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28450A32305A3BB007A91B6 /* Constants.swift */; };
 		B28450A62305A653007A91B6 /* CreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28450A52305A653007A91B6 /* CreditCardViewController.swift */; };
 		B2C30767230595FD0003000E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C30766230595FD0003000E /* AppDelegate.swift */; };
@@ -18,7 +19,6 @@
 		B2C30771230595FF0003000E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C3076F230595FF0003000E /* LaunchScreen.storyboard */; };
 		B2C3077C230595FF0003000E /* SpreedlyShirtsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3077B230595FF0003000E /* SpreedlyShirtsTests.swift */; };
 		B2C30787230595FF0003000E /* SpreedlyShirtsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C30786230595FF0003000E /* SpreedlyShirtsUITests.swift */; };
-		C730A1CFAE3577B76B3D1ADF /* Pods_SpreedlyShirtsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7964CDE3DEE313CF12FAF252 /* Pods_SpreedlyShirtsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,15 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E1C0008C23AB6F0C517B795 /* Pods-SpreedlyShirtsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirtsTests.debug.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirtsTests/Pods-SpreedlyShirtsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		56FBCCBA81AE8BBD88737910 /* Pods-SpreedlyShirtsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirtsTests.release.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirtsTests/Pods-SpreedlyShirtsTests.release.xcconfig"; sourceTree = "<group>"; };
-		76DF4DC9EE068E03E8814ED1 /* Pods_SpreedlyShirtsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpreedlyShirtsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7964CDE3DEE313CF12FAF252 /* Pods_SpreedlyShirtsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpreedlyShirtsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8150265B544575F4AB87EAC8 /* Pods-SpreedlyShirtsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirtsUITests.release.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirtsUITests/Pods-SpreedlyShirtsUITests.release.xcconfig"; sourceTree = "<group>"; };
-		83940F40B2C2A564B0D92ED8 /* Pods_SpreedlyShirts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpreedlyShirts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A3F17D9CDDF7D94F3B8FAE8 /* Pods-SpreedlyShirts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirts.debug.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts.debug.xcconfig"; sourceTree = "<group>"; };
-		A152BABC2D919747426E99F6 /* Pods-SpreedlyShirtsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirtsUITests.debug.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirtsUITests/Pods-SpreedlyShirtsUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A9040E4B5D588CAA731B1B82 /* Pods-SpreedlyShirts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirts.release.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts.release.xcconfig"; sourceTree = "<group>"; };
+		191A8F930BFDCEEDEA41C3A7 /* Pods-SpreedlyShirtsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirtsTests.release.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirtsTests/Pods-SpreedlyShirtsTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F360F47E23161BEF1870554 /* Pods_SpreedlyShirtsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpreedlyShirtsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52787D52C26CD92DABE73A95 /* Pods-SpreedlyShirtsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirtsUITests.release.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirtsUITests/Pods-SpreedlyShirtsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8066C7F53F03064919FF9E19 /* Pods_SpreedlyShirts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpreedlyShirts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93000438391FB4393B69ECF0 /* Pods-SpreedlyShirts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirts.release.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts.release.xcconfig"; sourceTree = "<group>"; };
+		933142F17466667D44306DFC /* Pods-SpreedlyShirts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirts.debug.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts.debug.xcconfig"; sourceTree = "<group>"; };
+		9A23A68C73E19512DB527386 /* Pods-SpreedlyShirtsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirtsUITests.debug.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirtsUITests/Pods-SpreedlyShirtsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD63173D6A73D5E4661ED592 /* Pods-SpreedlyShirtsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirtsTests.debug.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirtsTests/Pods-SpreedlyShirtsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B28450A32305A3BB007A91B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B28450A52305A653007A91B6 /* CreditCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardViewController.swift; sourceTree = "<group>"; };
 		B2C30763230595FD0003000E /* SpreedlyShirts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpreedlyShirts.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +62,7 @@
 		B2C30782230595FF0003000E /* SpreedlyShirtsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpreedlyShirtsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C30786230595FF0003000E /* SpreedlyShirtsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreedlyShirtsUITests.swift; sourceTree = "<group>"; };
 		B2C30788230595FF0003000E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E88B6E5292F14CD6B0B7DBF7 /* Pods_SpreedlyShirtsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpreedlyShirtsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782CAE1BDCF6464E2D3E4897 /* Pods_SpreedlyShirts.framework in Frameworks */,
+				2A10AFFD05366211E386F89C /* Pods_SpreedlyShirts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C730A1CFAE3577B76B3D1ADF /* Pods_SpreedlyShirtsTests.framework in Frameworks */,
+				5BFB836A594BA409360348E8 /* Pods_SpreedlyShirtsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,19 +86,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C109831B53C67DAF248400E /* Pods_SpreedlyShirtsUITests.framework in Frameworks */,
+				95A4DA90F1ADDC2B386AD725 /* Pods_SpreedlyShirtsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F7F433CD9FC48E5E4B9EF60 /* Frameworks */ = {
+		41A9ABEA2FAF544B047E1889 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				83940F40B2C2A564B0D92ED8 /* Pods_SpreedlyShirts.framework */,
-				7964CDE3DEE313CF12FAF252 /* Pods_SpreedlyShirtsTests.framework */,
-				76DF4DC9EE068E03E8814ED1 /* Pods_SpreedlyShirtsUITests.framework */,
+				8066C7F53F03064919FF9E19 /* Pods_SpreedlyShirts.framework */,
+				E88B6E5292F14CD6B0B7DBF7 /* Pods_SpreedlyShirtsTests.framework */,
+				4F360F47E23161BEF1870554 /* Pods_SpreedlyShirtsUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,12 +106,12 @@
 		87A46AA9C1779B9972A61168 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9A3F17D9CDDF7D94F3B8FAE8 /* Pods-SpreedlyShirts.debug.xcconfig */,
-				A9040E4B5D588CAA731B1B82 /* Pods-SpreedlyShirts.release.xcconfig */,
-				1E1C0008C23AB6F0C517B795 /* Pods-SpreedlyShirtsTests.debug.xcconfig */,
-				56FBCCBA81AE8BBD88737910 /* Pods-SpreedlyShirtsTests.release.xcconfig */,
-				A152BABC2D919747426E99F6 /* Pods-SpreedlyShirtsUITests.debug.xcconfig */,
-				8150265B544575F4AB87EAC8 /* Pods-SpreedlyShirtsUITests.release.xcconfig */,
+				933142F17466667D44306DFC /* Pods-SpreedlyShirts.debug.xcconfig */,
+				93000438391FB4393B69ECF0 /* Pods-SpreedlyShirts.release.xcconfig */,
+				AD63173D6A73D5E4661ED592 /* Pods-SpreedlyShirtsTests.debug.xcconfig */,
+				191A8F930BFDCEEDEA41C3A7 /* Pods-SpreedlyShirtsTests.release.xcconfig */,
+				9A23A68C73E19512DB527386 /* Pods-SpreedlyShirtsUITests.debug.xcconfig */,
+				52787D52C26CD92DABE73A95 /* Pods-SpreedlyShirtsUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -124,7 +124,7 @@
 				B2C30785230595FF0003000E /* SpreedlyShirtsUITests */,
 				B2C30764230595FD0003000E /* Products */,
 				87A46AA9C1779B9972A61168 /* Pods */,
-				1F7F433CD9FC48E5E4B9EF60 /* Frameworks */,
+				41A9ABEA2FAF544B047E1889 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,11 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2C3078B230595FF0003000E /* Build configuration list for PBXNativeTarget "SpreedlyShirts" */;
 			buildPhases = (
-				0BD026C339DC3299855CFEA0 /* [CP] Check Pods Manifest.lock */,
+				C3366DD01AA16C10128E7C0E /* [CP] Check Pods Manifest.lock */,
 				B2C3075F230595FD0003000E /* Sources */,
 				B2C30760230595FD0003000E /* Frameworks */,
 				B2C30761230595FD0003000E /* Resources */,
-				FD7C9061756CB5B22B17730D /* [CP] Embed Pods Frameworks */,
+				5D3738FC490E71471D4E182A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,7 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2C3078E230595FF0003000E /* Build configuration list for PBXNativeTarget "SpreedlyShirtsTests" */;
 			buildPhases = (
-				4BB235E55E24D1CC6BE2BAD6 /* [CP] Check Pods Manifest.lock */,
+				90716C3CD734EBDFFDEF4551 /* [CP] Check Pods Manifest.lock */,
 				B2C30773230595FF0003000E /* Sources */,
 				B2C30774230595FF0003000E /* Frameworks */,
 				B2C30775230595FF0003000E /* Resources */,
@@ -216,7 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2C30791230595FF0003000E /* Build configuration list for PBXNativeTarget "SpreedlyShirtsUITests" */;
 			buildPhases = (
-				A389AE10A563F87863359792 /* [CP] Check Pods Manifest.lock */,
+				951EAAD34261F7EA68864525 /* [CP] Check Pods Manifest.lock */,
 				B2C3077E230595FF0003000E /* Sources */,
 				B2C3077F230595FF0003000E /* Frameworks */,
 				B2C30780230595FF0003000E /* Resources */,
@@ -302,29 +302,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0BD026C339DC3299855CFEA0 /* [CP] Check Pods Manifest.lock */ = {
+		5D3738FC490E71471D4E182A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SpreedlyShirts-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4BB235E55E24D1CC6BE2BAD6 /* [CP] Check Pods Manifest.lock */ = {
+		90716C3CD734EBDFFDEF4551 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -346,7 +341,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A389AE10A563F87863359792 /* [CP] Check Pods Manifest.lock */ = {
+		951EAAD34261F7EA68864525 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,21 +363,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FD7C9061756CB5B22B17730D /* [CP] Embed Pods Frameworks */ = {
+		C3366DD01AA16C10128E7C0E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpreedlyShirts-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -568,7 +568,7 @@
 		};
 		B2C3078C230595FF0003000E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A3F17D9CDDF7D94F3B8FAE8 /* Pods-SpreedlyShirts.debug.xcconfig */;
+			baseConfigurationReference = 933142F17466667D44306DFC /* Pods-SpreedlyShirts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -586,7 +586,7 @@
 		};
 		B2C3078D230595FF0003000E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9040E4B5D588CAA731B1B82 /* Pods-SpreedlyShirts.release.xcconfig */;
+			baseConfigurationReference = 93000438391FB4393B69ECF0 /* Pods-SpreedlyShirts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -604,7 +604,7 @@
 		};
 		B2C3078F230595FF0003000E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E1C0008C23AB6F0C517B795 /* Pods-SpreedlyShirtsTests.debug.xcconfig */;
+			baseConfigurationReference = AD63173D6A73D5E4661ED592 /* Pods-SpreedlyShirtsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -625,7 +625,7 @@
 		};
 		B2C30790230595FF0003000E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56FBCCBA81AE8BBD88737910 /* Pods-SpreedlyShirtsTests.release.xcconfig */;
+			baseConfigurationReference = 191A8F930BFDCEEDEA41C3A7 /* Pods-SpreedlyShirtsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -646,7 +646,7 @@
 		};
 		B2C30792230595FF0003000E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A152BABC2D919747426E99F6 /* Pods-SpreedlyShirtsUITests.debug.xcconfig */;
+			baseConfigurationReference = 9A23A68C73E19512DB527386 /* Pods-SpreedlyShirtsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -666,7 +666,7 @@
 		};
 		B2C30793230595FF0003000E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8150265B544575F4AB87EAC8 /* Pods-SpreedlyShirtsUITests.release.xcconfig */;
+			baseConfigurationReference = 52787D52C26CD92DABE73A95 /* Pods-SpreedlyShirtsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

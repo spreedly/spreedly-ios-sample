@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -19,25 +19,25 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0519BB7D670A0BA3067979289F81CD2B /* RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83211588CDFF761864920F444AA41F11 /* RequestSerializer.swift */; };
+		0519BB7D670A0BA3067979289F81CD2B /* RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276DD643DD207279FDD4A5140F974E26 /* RequestSerializer.swift */; };
 		17FC9FC2B7BDCB51460041E9CFD7201D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA09AD55F453198B30E187F1C15EED89 /* SwiftyJSON.swift */; };
-		260D4487DB1CF99D7B5E262E2E8FA84E /* Spreedly-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 817A479407C4CADE1711C5C68D89F19B /* Spreedly-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		260D4487DB1CF99D7B5E262E2E8FA84E /* Spreedly-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1798470BC4966C2BC6E7608658610D /* Spreedly-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F2AF287E576B525FB3953D7522C819B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0570477FB03A97FC79B1D41A902F13D /* Foundation.framework */; };
-		4265BFD7F23B21A617CC24753F80094B /* Spreedly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B49D52E2E82F41A3DEB4558E9CA7CD1 /* Spreedly.swift */; };
+		4265BFD7F23B21A617CC24753F80094B /* Spreedly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE6DDD9D0AE0AADABC46EC5EC67E38D /* Spreedly.swift */; };
 		4E94C472E3EE8BFD3E7DE9F5B91A34EE /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 507DCEF369BFFCA11B3C51408A9A3599 /* SwiftyJSON-dummy.m */; };
 		519AFD0CB3E28FEC9701A068C2B6F863 /* Pods-SpreedlyShirtsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68784A882EE5EECBB157E9D46F25A779 /* Pods-SpreedlyShirtsUITests-dummy.m */; };
 		59F5288171B3E2B9543504E044C31E4F /* Pods-SpreedlyShirtsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71123C339DADCED99BD80DE8588D0230 /* Pods-SpreedlyShirtsTests-dummy.m */; };
 		5AF2774C013115163C04C8DAA83F390B /* Pods-SpreedlyShirtsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA78ED9427DE646B6D8E8B9928C97561 /* Pods-SpreedlyShirtsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C72DDD59931AC8515F7BD9177F8EFFF /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D7E4F252EEE9E53D23166111EFBAA0 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60EBCAC0AE0DA1FA27A7B30DE100008D /* Pods-SpreedlyShirts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F06447E13C5A95E701583F7BAF59AE1 /* Pods-SpreedlyShirts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6404FCF9F19B440E5F078756708F45F5 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E01000F26053F9DEDFAEB0E2FE1389C /* CreditCard.swift */; };
-		76DDB35E3A81D62D2801025FBD519BBC /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7599368F43329EB0367F484EBACC56DE /* PaymentMethod.swift */; };
+		6404FCF9F19B440E5F078756708F45F5 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B68F4F1D3AE7B9A8A8380696263BCA1 /* CreditCard.swift */; };
+		76DDB35E3A81D62D2801025FBD519BBC /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FAB55ACB8E8CFE74046000B6B4DF4C /* PaymentMethod.swift */; };
 		7E3468EFB2F37C4BE424A713814A1A54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0570477FB03A97FC79B1D41A902F13D /* Foundation.framework */; };
-		81EB126E3F1EA6CE912E53BE076A973A /* SpreedlyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C707B10973D78BC0D4AC6AF65F3FA07 /* SpreedlyError.swift */; };
+		81EB126E3F1EA6CE912E53BE076A973A /* SpreedlyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB4E7B1AE909142F9EB37B18814B1BB /* SpreedlyError.swift */; };
 		B5829F82BDA050759BE939B92B2DE3FB /* Pods-SpreedlyShirts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B29927607B6305BC2A8CB98A54F6467 /* Pods-SpreedlyShirts-dummy.m */; };
 		BA6D7441DA3887613EAFCF96B05BA0EE /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7DFB14D1C6863636A118D1382C4539F /* SwiftyJSON.framework */; };
-		BCB97EAD15FD667C2E1635785D71FDB0 /* SpreedlyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7EEED94C5EF023A79B8646DD894FD9 /* SpreedlyAPIClient.swift */; };
-		C9E20C2061166B74D08FE355A07ACB91 /* Spreedly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6582D74605CCE9033366CDFE0E2921D6 /* Spreedly-dummy.m */; };
+		BCB97EAD15FD667C2E1635785D71FDB0 /* SpreedlyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CBCB7702AAF8673EEFEFCF85413711 /* SpreedlyAPIClient.swift */; };
+		C9E20C2061166B74D08FE355A07ACB91 /* Spreedly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B047CA43AB063CCD3E3F8FC3B62089 /* Spreedly-dummy.m */; };
 		CA2527028BF0A0AAA2F3C39665227BDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0570477FB03A97FC79B1D41A902F13D /* Foundation.framework */; };
 		D6E229D6EA72D7FB2735EA4E3CE57527 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0570477FB03A97FC79B1D41A902F13D /* Foundation.framework */; };
 		F9BA5DC2C0B2C5ACB7AA07B90DFB5936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0570477FB03A97FC79B1D41A902F13D /* Foundation.framework */; };
@@ -97,63 +97,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		182BB3DA5B90CA254D1157499390AAFE /* Spreedly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spreedly.xcconfig; sourceTree = "<group>"; };
-		1E01000F26053F9DEDFAEB0E2FE1389C /* CreditCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCard.swift; path = Spreedly/CreditCard.swift; sourceTree = "<group>"; };
+		07CBCB7702AAF8673EEFEFCF85413711 /* SpreedlyAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpreedlyAPIClient.swift; path = Spreedly/SpreedlyAPIClient.swift; sourceTree = "<group>"; };
+		21400A0C32C1E09A4CBC0933C7F8E502 /* Spreedly.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Spreedly.modulemap; sourceTree = "<group>"; };
 		26D4BA0CEBAAD69E8CD1DFA7A0717CA7 /* Adyen3DS2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Adyen3DS2.framework; path = Dynamic/Adyen3DS2.framework; sourceTree = "<group>"; };
-		294145A7E2E9541800A0E01AA899661F /* Spreedly.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Spreedly.modulemap; sourceTree = "<group>"; };
+		276DD643DD207279FDD4A5140F974E26 /* RequestSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestSerializer.swift; path = Spreedly/RequestSerializer.swift; sourceTree = "<group>"; };
 		2B29927607B6305BC2A8CB98A54F6467 /* Pods-SpreedlyShirts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpreedlyShirts-dummy.m"; sourceTree = "<group>"; };
 		2C8F0F82D15E65ABCEEE4B2DFC0F308B /* Pods-SpreedlyShirtsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpreedlyShirtsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2E627A410687E9B52FDE5130FE04116B /* Pods-SpreedlyShirtsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpreedlyShirtsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		37115B6D2C75F480717652747115115E /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
 		38DE9BCF9A71FC307EF0B3F660A52125 /* Adyen3DS2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Adyen3DS2.xcconfig; sourceTree = "<group>"; };
+		3B68F4F1D3AE7B9A8A8380696263BCA1 /* CreditCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCard.swift; path = Spreedly/CreditCard.swift; sourceTree = "<group>"; };
 		3FE053D42D0261BDD4817AA93420A21B /* Pods-SpreedlyShirts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpreedlyShirts.debug.xcconfig"; sourceTree = "<group>"; };
 		4090DD31895DBD2976363673CB80676B /* Pods-SpreedlyShirtsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpreedlyShirtsTests-umbrella.h"; sourceTree = "<group>"; };
 		4713324C9B9237AF901796D761C4FAD3 /* Pods_SpreedlyShirts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpreedlyShirts.framework; path = "Pods-SpreedlyShirts.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47D7E4F252EEE9E53D23166111EFBAA0 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		4839A7F0E6AD2CB24BC04EF98AC4EB56 /* Pods-SpreedlyShirtsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpreedlyShirtsTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C107BE7196E4F292E1E28D067238F52 /* Spreedly.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Spreedly.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		507DCEF369BFFCA11B3C51408A9A3599 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		545A7FC040DFE30588E2737183153C3E /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
-		6582D74605CCE9033366CDFE0E2921D6 /* Spreedly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spreedly-dummy.m"; sourceTree = "<group>"; };
 		68784A882EE5EECBB157E9D46F25A779 /* Pods-SpreedlyShirtsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpreedlyShirtsUITests-dummy.m"; sourceTree = "<group>"; };
-		6D7EEED94C5EF023A79B8646DD894FD9 /* SpreedlyAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpreedlyAPIClient.swift; path = Spreedly/SpreedlyAPIClient.swift; sourceTree = "<group>"; };
 		6FFA173291CF4DCE828DEA5A56BAAA09 /* Pods-SpreedlyShirtsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpreedlyShirtsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		71123C339DADCED99BD80DE8588D0230 /* Pods-SpreedlyShirtsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpreedlyShirtsTests-dummy.m"; sourceTree = "<group>"; };
-		7435DD5C6785A652BA5DF3DC3EB64C9E /* Spreedly-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spreedly-prefix.pch"; sourceTree = "<group>"; };
-		7599368F43329EB0367F484EBACC56DE /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentMethod.swift; path = Spreedly/PaymentMethod.swift; sourceTree = "<group>"; };
-		7B91D13D2329588DF975CA5D25A0A862 /* Spreedly-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Spreedly-Info.plist"; sourceTree = "<group>"; };
 		7E24900191AD9DDE283E2FAC8B175B24 /* Pods-SpreedlyShirtsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpreedlyShirtsTests-Info.plist"; sourceTree = "<group>"; };
 		7F06447E13C5A95E701583F7BAF59AE1 /* Pods-SpreedlyShirts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpreedlyShirts-umbrella.h"; sourceTree = "<group>"; };
 		7F2465CE1A2399A54DE33096A8B145CE /* Pods-SpreedlyShirtsUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpreedlyShirtsUITests-Info.plist"; sourceTree = "<group>"; };
 		8099738D44E3CA8AE02924A2B8783451 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		80C8F8BFC3F4E813F5BF9BDDC0BA9F7A /* Pods-SpreedlyShirtsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpreedlyShirtsTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		817A479407C4CADE1711C5C68D89F19B /* Spreedly-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spreedly-umbrella.h"; sourceTree = "<group>"; };
-		83211588CDFF761864920F444AA41F11 /* RequestSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestSerializer.swift; path = Spreedly/RequestSerializer.swift; sourceTree = "<group>"; };
+		80D45E18D19AA4195DBE887C4EE78D89 /* Spreedly-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Spreedly-Info.plist"; sourceTree = "<group>"; };
 		890C4F551909270377FB73C2E34CCE9F /* Pods-SpreedlyShirts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpreedlyShirts.release.xcconfig"; sourceTree = "<group>"; };
-		8C707B10973D78BC0D4AC6AF65F3FA07 /* SpreedlyError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpreedlyError.swift; path = Spreedly/SpreedlyError.swift; sourceTree = "<group>"; };
+		8B1798470BC4966C2BC6E7608658610D /* Spreedly-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spreedly-umbrella.h"; sourceTree = "<group>"; };
+		8C97A582B6E4593B222E7CA2D64B4EA8 /* Spreedly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spreedly.xcconfig; sourceTree = "<group>"; };
 		947FEEEE67A7710D06DF8A35CCE134D0 /* Pods-SpreedlyShirtsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpreedlyShirtsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		95DFAE6C7B388B8DAB7BEFA423D7ED87 /* Pods-SpreedlyShirts-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpreedlyShirts-acknowledgements.plist"; sourceTree = "<group>"; };
 		97CEDE23224FE9A77F5F990516B2B51C /* Pods-SpreedlyShirtsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpreedlyShirtsUITests.modulemap"; sourceTree = "<group>"; };
+		9893EBFCE7403EAC459D6D2209CC6FCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		994215E2FA02AE07AFED8C29DDAB2442 /* Spreedly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Spreedly.framework; path = Spreedly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B49D52E2E82F41A3DEB4558E9CA7CD1 /* Spreedly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spreedly.swift; path = Spreedly/Spreedly.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3FAB55ACB8E8CFE74046000B6B4DF4C /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentMethod.swift; path = Spreedly/PaymentMethod.swift; sourceTree = "<group>"; };
 		A472768E0867DB04727BB18DB193B611 /* Pods-SpreedlyShirtsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpreedlyShirtsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A633EAE42D7EA1A0EF91C3A1B717AFB4 /* Pods-SpreedlyShirts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpreedlyShirts.modulemap"; sourceTree = "<group>"; };
 		B3E70829D62FBD32440B6F96DDA33880 /* Pods-SpreedlyShirtsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpreedlyShirtsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B9429935D78F16B15C50880120012B6A /* Pods_SpreedlyShirtsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpreedlyShirtsUITests.framework; path = "Pods-SpreedlyShirtsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA08F164CF3B858E0FF3D37246B32083 /* Pods-SpreedlyShirts-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpreedlyShirts-frameworks.sh"; sourceTree = "<group>"; };
 		C28AF3E824FBF3E758C2CC58D5F27233 /* Pods-SpreedlyShirts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpreedlyShirts-Info.plist"; sourceTree = "<group>"; };
+		C8B047CA43AB063CCD3E3F8FC3B62089 /* Spreedly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spreedly-dummy.m"; sourceTree = "<group>"; };
+		CD1DDFAC14B88589B8120EB79B40696A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D0570477FB03A97FC79B1D41A902F13D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D5357C334B926E3EA73D48165CFE3744 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D7B99CF75AEDD75E2065B1BFC1D1EA48 /* Pods_SpreedlyShirtsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpreedlyShirtsTests.framework; path = "Pods-SpreedlyShirtsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DFB14D1C6863636A118D1382C4539F /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DE67E442413A79956D272B35E738D9 /* Spreedly-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spreedly-prefix.pch"; sourceTree = "<group>"; };
 		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E65C1CB4940C9BD0ED85FCEE73B2A241 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		EC55FC6BE42733A713EEDC64DC4E9397 /* Pods-SpreedlyShirtsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SpreedlyShirtsTests.modulemap"; sourceTree = "<group>"; };
-		F3B590CAF0CE182E9F098305809655A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EFE6DDD9D0AE0AADABC46EC5EC67E38D /* Spreedly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spreedly.swift; path = Spreedly/Spreedly.swift; sourceTree = "<group>"; };
 		F5EDF3D3E56D81FB02D4BF0C9F7E656F /* Pods-SpreedlyShirts-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpreedlyShirts-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FA09AD55F453198B30E187F1C15EED89 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
 		FA78ED9427DE646B6D8E8B9928C97561 /* Pods-SpreedlyShirtsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpreedlyShirtsUITests-umbrella.h"; sourceTree = "<group>"; };
-		FA7CDC626601BB46BA1A143479249B61 /* Spreedly.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Spreedly.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FBB4E7B1AE909142F9EB37B18814B1BB /* SpreedlyError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpreedlyError.swift; path = Spreedly/SpreedlyError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,7 +234,7 @@
 		13C7C70EF6F875EA192B70AB2547C39D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6B68859B553B05C84DD2CBD79FF22DEC /* Spreedly */,
+				AA8D167D1A910DBCE8E7B91AC15AA9DF /* Spreedly */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -248,42 +248,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4331E9273F57B2E17B1D4A8A24592739 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9893EBFCE7403EAC459D6D2209CC6FCE /* LICENSE */,
+				CD1DDFAC14B88589B8120EB79B40696A /* README.md */,
+				4C107BE7196E4F292E1E28D067238F52 /* Spreedly.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		4F140C418A43567C09714FF3E1102937 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				26D4BA0CEBAAD69E8CD1DFA7A0717CA7 /* Adyen3DS2.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6B68859B553B05C84DD2CBD79FF22DEC /* Spreedly */ = {
-			isa = PBXGroup;
-			children = (
-				1E01000F26053F9DEDFAEB0E2FE1389C /* CreditCard.swift */,
-				7599368F43329EB0367F484EBACC56DE /* PaymentMethod.swift */,
-				83211588CDFF761864920F444AA41F11 /* RequestSerializer.swift */,
-				9B49D52E2E82F41A3DEB4558E9CA7CD1 /* Spreedly.swift */,
-				6D7EEED94C5EF023A79B8646DD894FD9 /* SpreedlyAPIClient.swift */,
-				8C707B10973D78BC0D4AC6AF65F3FA07 /* SpreedlyError.swift */,
-				D6203A41B6E702FCA8C64C7E74174A68 /* Pod */,
-				77BE6F15393E8DCF33460804C8FE9884 /* Support Files */,
-			);
-			name = Spreedly;
-			path = "../../spreedly-ios";
-			sourceTree = "<group>";
-		};
-		77BE6F15393E8DCF33460804C8FE9884 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				294145A7E2E9541800A0E01AA899661F /* Spreedly.modulemap */,
-				182BB3DA5B90CA254D1157499390AAFE /* Spreedly.xcconfig */,
-				6582D74605CCE9033366CDFE0E2921D6 /* Spreedly-dummy.m */,
-				7B91D13D2329588DF975CA5D25A0A862 /* Spreedly-Info.plist */,
-				7435DD5C6785A652BA5DF3DC3EB64C9E /* Spreedly-prefix.pch */,
-				817A479407C4CADE1711C5C68D89F19B /* Spreedly-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../SpreedlyShirts/Pods/Target Support Files/Spreedly";
 			sourceTree = "<group>";
 		};
 		78186D99E6C57D7FA35A5848D0AFD2A8 /* Targets Support Files */ = {
@@ -333,6 +313,20 @@
 			path = "Target Support Files/Pods-SpreedlyShirtsTests";
 			sourceTree = "<group>";
 		};
+		993CC36C333F10518686718A7C789A6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21400A0C32C1E09A4CBC0933C7F8E502 /* Spreedly.modulemap */,
+				8C97A582B6E4593B222E7CA2D64B4EA8 /* Spreedly.xcconfig */,
+				C8B047CA43AB063CCD3E3F8FC3B62089 /* Spreedly-dummy.m */,
+				80D45E18D19AA4195DBE887C4EE78D89 /* Spreedly-Info.plist */,
+				D8DE67E442413A79956D272B35E738D9 /* Spreedly-prefix.pch */,
+				8B1798470BC4966C2BC6E7608658610D /* Spreedly-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../spreedly-shirts/Pods/Target Support Files/Spreedly";
+			sourceTree = "<group>";
+		};
 		A4C8F262CC9B6F7698D239956FFA98CF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -340,6 +334,22 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Adyen3DS2";
+			sourceTree = "<group>";
+		};
+		AA8D167D1A910DBCE8E7B91AC15AA9DF /* Spreedly */ = {
+			isa = PBXGroup;
+			children = (
+				3B68F4F1D3AE7B9A8A8380696263BCA1 /* CreditCard.swift */,
+				A3FAB55ACB8E8CFE74046000B6B4DF4C /* PaymentMethod.swift */,
+				276DD643DD207279FDD4A5140F974E26 /* RequestSerializer.swift */,
+				EFE6DDD9D0AE0AADABC46EC5EC67E38D /* Spreedly.swift */,
+				07CBCB7702AAF8673EEFEFCF85413711 /* SpreedlyAPIClient.swift */,
+				FBB4E7B1AE909142F9EB37B18814B1BB /* SpreedlyError.swift */,
+				4331E9273F57B2E17B1D4A8A24592739 /* Pod */,
+				993CC36C333F10518686718A7C789A6E /* Support Files */,
+			);
+			name = Spreedly;
+			path = "../../spreedly-ios";
 			sourceTree = "<group>";
 		};
 		AB94CFBDF2AE59A194BCF32CAC33897F /* Pods-SpreedlyShirts */ = {
@@ -379,16 +389,6 @@
 				865E587348172861D09CB8D6CBAE40FA /* Products */,
 				78186D99E6C57D7FA35A5848D0AFD2A8 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D6203A41B6E702FCA8C64C7E74174A68 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F3B590CAF0CE182E9F098305809655A5 /* LICENSE */,
-				D5357C334B926E3EA73D48165CFE3744 /* README.md */,
-				FA7CDC626601BB46BA1A143479249B61 /* Spreedly.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		E3FE58396FD5620EAEC7642F3729D9E7 /* SwiftyJSON */ = {
@@ -562,7 +562,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -719,7 +719,7 @@
 /* Begin XCBuildConfiguration section */
 		1826273156FD54DEF1E66620054D2857 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 182BB3DA5B90CA254D1157499390AAFE /* Spreedly.xcconfig */;
+			baseConfigurationReference = 8C97A582B6E4593B222E7CA2D64B4EA8 /* Spreedly.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1217,7 +1217,7 @@
 		};
 		FAB4547B5AFB238E11806EFCF9148A05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 182BB3DA5B90CA254D1157499390AAFE /* Spreedly.xcconfig */;
+			baseConfigurationReference = 8C97A582B6E4593B222E7CA2D64B4EA8 /* Spreedly.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
