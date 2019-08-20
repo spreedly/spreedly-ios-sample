@@ -1,1 +1,5 @@
 .DS_Store
+SpreedlyShirts.xcodeproj/xcuserdata/
+Pods/Pods.xcodeproj/xcuserdata
+SpreedlyShirts.xcworkspace/xcuserdata
+SpreedlyShirts/Secrets.swift

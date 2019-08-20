@@ -10,6 +10,8 @@
 		2A10AFFD05366211E386F89C /* Pods_SpreedlyShirts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8066C7F53F03064919FF9E19 /* Pods_SpreedlyShirts.framework */; };
 		5BFB836A594BA409360348E8 /* Pods_SpreedlyShirtsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88B6E5292F14CD6B0B7DBF7 /* Pods_SpreedlyShirtsTests.framework */; };
 		95A4DA90F1ADDC2B386AD725 /* Pods_SpreedlyShirtsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F360F47E23161BEF1870554 /* Pods_SpreedlyShirtsUITests.framework */; };
+		9DCA2A52230C872400799E89 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA2A51230C872400799E89 /* Secrets.swift */; };
+		9DCA2A55230C89FA00799E89 /* SpreedlyBackend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA2A54230C89FA00799E89 /* SpreedlyBackend.swift */; };
 		B28450A42305A3BB007A91B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28450A32305A3BB007A91B6 /* Constants.swift */; };
 		B28450A62305A653007A91B6 /* CreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28450A52305A653007A91B6 /* CreditCardViewController.swift */; };
 		B2C30767230595FD0003000E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C30766230595FD0003000E /* AppDelegate.swift */; };
@@ -46,6 +48,8 @@
 		93000438391FB4393B69ECF0 /* Pods-SpreedlyShirts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirts.release.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts.release.xcconfig"; sourceTree = "<group>"; };
 		933142F17466667D44306DFC /* Pods-SpreedlyShirts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirts.debug.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts.debug.xcconfig"; sourceTree = "<group>"; };
 		9A23A68C73E19512DB527386 /* Pods-SpreedlyShirtsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirtsUITests.debug.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirtsUITests/Pods-SpreedlyShirtsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DCA2A51230C872400799E89 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		9DCA2A54230C89FA00799E89 /* SpreedlyBackend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreedlyBackend.swift; sourceTree = "<group>"; };
 		AD63173D6A73D5E4661ED592 /* Pods-SpreedlyShirtsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirtsTests.debug.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirtsTests/Pods-SpreedlyShirtsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B28450A32305A3BB007A91B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B28450A52305A653007A91B6 /* CreditCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +153,8 @@
 				B2C3076D230595FF0003000E /* Assets.xcassets */,
 				B2C3076F230595FF0003000E /* LaunchScreen.storyboard */,
 				B2C30772230595FF0003000E /* Info.plist */,
+				9DCA2A51230C872400799E89 /* Secrets.swift */,
+				9DCA2A54230C89FA00799E89 /* SpreedlyBackend.swift */,
 			);
 			path = SpreedlyShirts;
 			sourceTree = "<group>";
@@ -393,8 +399,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2C30769230595FD0003000E /* ViewController.swift in Sources */,
+				9DCA2A52230C872400799E89 /* Secrets.swift in Sources */,
 				B28450A62305A653007A91B6 /* CreditCardViewController.swift in Sources */,
 				B2C30767230595FD0003000E /* AppDelegate.swift in Sources */,
+				9DCA2A55230C89FA00799E89 /* SpreedlyBackend.swift in Sources */,
 				B28450A42305A3BB007A91B6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
