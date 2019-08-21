@@ -24,6 +24,10 @@ class ViewController: UIViewController, PKPaymentAuthorizationViewControllerDele
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func handleTest3DSFlowTapped(_ sender: AnyObject) {
+        SpreedlyBackend.purchase(amount: 12100)
+    }
+    
     @IBAction func handleApplePayTapped(_ sender: AnyObject) {
         let paymentRequest = PKPaymentRequest()
         paymentRequest.merchantIdentifier = appleMerchantId

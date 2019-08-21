@@ -7,6 +7,7 @@ target 'SpreedlyShirts' do
 
   # Pods for SpreedlyShirts
   pod 'Spreedly', path: '../spreedly-ios'
+  pod 'Alamofire'
 
   target 'SpreedlyShirtsTests' do
     inherit! :search_paths
