@@ -25,7 +25,27 @@ class ViewController: UIViewController, PKPaymentAuthorizationViewControllerDele
     }
     
     @IBAction func handleTest3DSFlowTapped(_ sender: AnyObject) {
-        SpreedlyBackend.purchase(amount: 12100)
+        SpreedlyBackend.purchase(amount: 12100, purchaseCompletion: { response in
+            print("==================== PURCHASE ====================")
+            print(response)
+            let txToken = response["transaction"]["token"].stringValue
+            
+            let spreedly = Spreedly()
+            let lifecycle = spreedly.threeDsInit(rawThreeDsContext: response["transaction"]["three_ds_context"].stringValue)
+            
+            lifecycle.getDeviceFingerprintData(fingerprintDataCompletion: { fingerprintData in
+                print("==================== FINGERPRINT ====================")
+                print(fingerprintData)
+                SpreedlyBackend.purchase_continue(transactionToken: txToken, threeDSData: fingerprintData, continueCompletion: { response in
+                    
+                    let challengeContext = response["transaction"]["three_ds_context"].stringValue
+                    lifecycle.doChallenge(rawThreeDsContext: challengeContext, challengeCompletion: { result in
+                        print("==================== CHALLENGE ====================")
+                        print(result)
+                    })
+                })
+            })
+        })
     }
     
     @IBAction func handleApplePayTapped(_ sender: AnyObject) {
