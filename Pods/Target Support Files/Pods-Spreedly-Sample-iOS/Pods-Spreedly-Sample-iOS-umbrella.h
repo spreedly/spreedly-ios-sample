@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_SpreedlyShirtsTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SpreedlyShirtsTestsVersionString[];
+FOUNDATION_EXPORT double Pods_Spreedly_Sample_iOSVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Spreedly_Sample_iOSVersionString[];
 
