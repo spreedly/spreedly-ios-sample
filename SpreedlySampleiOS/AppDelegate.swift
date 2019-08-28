@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  SpreedlyShirts
+//  Spreedly-Sample-iOS
 //
 //  Created by David Santoso on 8/15/19.
 //  Copyright © 2019 Spreedly. All rights reserved.

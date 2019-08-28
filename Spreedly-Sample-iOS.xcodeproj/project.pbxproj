@@ -53,17 +53,17 @@
 		AD63173D6A73D5E4661ED592 /* Pods-SpreedlyShirtsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirtsTests.debug.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirtsTests/Pods-SpreedlyShirtsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B28450A32305A3BB007A91B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B28450A52305A653007A91B6 /* CreditCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardViewController.swift; sourceTree = "<group>"; };
-		B2C30763230595FD0003000E /* SpreedlyShirts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpreedlyShirts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C30763230595FD0003000E /* Spreedly-Sample-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spreedly-Sample-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C30766230595FD0003000E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2C30768230595FD0003000E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2C3076B230595FD0003000E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2C3076D230595FF0003000E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2C30770230595FF0003000E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2C30772230595FF0003000E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2C30777230595FF0003000E /* SpreedlyShirtsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpreedlyShirtsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C30777230595FF0003000E /* Spreedly-Sample-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spreedly-Sample-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C3077B230595FF0003000E /* SpreedlyShirtsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreedlyShirtsTests.swift; sourceTree = "<group>"; };
 		B2C3077D230595FF0003000E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2C30782230595FF0003000E /* SpreedlyShirtsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpreedlyShirtsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2C30782230595FF0003000E /* Spreedly-Sample-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spreedly-Sample-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C30786230595FF0003000E /* SpreedlyShirtsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreedlyShirtsUITests.swift; sourceTree = "<group>"; };
 		B2C30788230595FF0003000E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E88B6E5292F14CD6B0B7DBF7 /* Pods_SpreedlyShirtsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpreedlyShirtsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,9 +123,9 @@
 		B2C3075A230595FD0003000E = {
 			isa = PBXGroup;
 			children = (
-				B2C30765230595FD0003000E /* SpreedlyShirts */,
-				B2C3077A230595FF0003000E /* SpreedlyShirtsTests */,
-				B2C30785230595FF0003000E /* SpreedlyShirtsUITests */,
+				B2C30765230595FD0003000E /* SpreedlySampleiOS */,
+				B2C3077A230595FF0003000E /* SpreedlySampleiOSTests */,
+				B2C30785230595FF0003000E /* SpreedlySampleiOSUITests */,
 				B2C30764230595FD0003000E /* Products */,
 				87A46AA9C1779B9972A61168 /* Pods */,
 				41A9ABEA2FAF544B047E1889 /* Frameworks */,
@@ -135,14 +135,14 @@
 		B2C30764230595FD0003000E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B2C30763230595FD0003000E /* SpreedlyShirts.app */,
-				B2C30777230595FF0003000E /* SpreedlyShirtsTests.xctest */,
-				B2C30782230595FF0003000E /* SpreedlyShirtsUITests.xctest */,
+				B2C30763230595FD0003000E /* Spreedly-Sample-iOS.app */,
+				B2C30777230595FF0003000E /* Spreedly-Sample-iOSTests.xctest */,
+				B2C30782230595FF0003000E /* Spreedly-Sample-iOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B2C30765230595FD0003000E /* SpreedlyShirts */ = {
+		B2C30765230595FD0003000E /* SpreedlySampleiOS */ = {
 			isa = PBXGroup;
 			children = (
 				B28450A32305A3BB007A91B6 /* Constants.swift */,
@@ -156,33 +156,33 @@
 				9DCA2A51230C872400799E89 /* Secrets.swift */,
 				9DCA2A54230C89FA00799E89 /* SpreedlyBackend.swift */,
 			);
-			path = SpreedlyShirts;
+			path = SpreedlySampleiOS;
 			sourceTree = "<group>";
 		};
-		B2C3077A230595FF0003000E /* SpreedlyShirtsTests */ = {
+		B2C3077A230595FF0003000E /* SpreedlySampleiOSTests */ = {
 			isa = PBXGroup;
 			children = (
 				B2C3077B230595FF0003000E /* SpreedlyShirtsTests.swift */,
 				B2C3077D230595FF0003000E /* Info.plist */,
 			);
-			path = SpreedlyShirtsTests;
+			path = SpreedlySampleiOSTests;
 			sourceTree = "<group>";
 		};
-		B2C30785230595FF0003000E /* SpreedlyShirtsUITests */ = {
+		B2C30785230595FF0003000E /* SpreedlySampleiOSUITests */ = {
 			isa = PBXGroup;
 			children = (
 				B2C30786230595FF0003000E /* SpreedlyShirtsUITests.swift */,
 				B2C30788230595FF0003000E /* Info.plist */,
 			);
-			path = SpreedlyShirtsUITests;
+			path = SpreedlySampleiOSUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B2C30762230595FD0003000E /* SpreedlyShirts */ = {
+		B2C30762230595FD0003000E /* Spreedly-Sample-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2C3078B230595FF0003000E /* Build configuration list for PBXNativeTarget "SpreedlyShirts" */;
+			buildConfigurationList = B2C3078B230595FF0003000E /* Build configuration list for PBXNativeTarget "Spreedly-Sample-iOS" */;
 			buildPhases = (
 				C3366DD01AA16C10128E7C0E /* [CP] Check Pods Manifest.lock */,
 				B2C3075F230595FD0003000E /* Sources */,
@@ -194,14 +194,14 @@
 			);
 			dependencies = (
 			);
-			name = SpreedlyShirts;
+			name = "Spreedly-Sample-iOS";
 			productName = SpreedlyShirts;
-			productReference = B2C30763230595FD0003000E /* SpreedlyShirts.app */;
+			productReference = B2C30763230595FD0003000E /* Spreedly-Sample-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B2C30776230595FF0003000E /* SpreedlyShirtsTests */ = {
+		B2C30776230595FF0003000E /* Spreedly-Sample-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2C3078E230595FF0003000E /* Build configuration list for PBXNativeTarget "SpreedlyShirtsTests" */;
+			buildConfigurationList = B2C3078E230595FF0003000E /* Build configuration list for PBXNativeTarget "Spreedly-Sample-iOSTests" */;
 			buildPhases = (
 				90716C3CD734EBDFFDEF4551 /* [CP] Check Pods Manifest.lock */,
 				B2C30773230595FF0003000E /* Sources */,
@@ -213,14 +213,14 @@
 			dependencies = (
 				B2C30779230595FF0003000E /* PBXTargetDependency */,
 			);
-			name = SpreedlyShirtsTests;
+			name = "Spreedly-Sample-iOSTests";
 			productName = SpreedlyShirtsTests;
-			productReference = B2C30777230595FF0003000E /* SpreedlyShirtsTests.xctest */;
+			productReference = B2C30777230595FF0003000E /* Spreedly-Sample-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B2C30781230595FF0003000E /* SpreedlyShirtsUITests */ = {
+		B2C30781230595FF0003000E /* Spreedly-Sample-iOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B2C30791230595FF0003000E /* Build configuration list for PBXNativeTarget "SpreedlyShirtsUITests" */;
+			buildConfigurationList = B2C30791230595FF0003000E /* Build configuration list for PBXNativeTarget "Spreedly-Sample-iOSUITests" */;
 			buildPhases = (
 				951EAAD34261F7EA68864525 /* [CP] Check Pods Manifest.lock */,
 				B2C3077E230595FF0003000E /* Sources */,
@@ -232,9 +232,9 @@
 			dependencies = (
 				B2C30784230595FF0003000E /* PBXTargetDependency */,
 			);
-			name = SpreedlyShirtsUITests;
+			name = "Spreedly-Sample-iOSUITests";
 			productName = SpreedlyShirtsUITests;
-			productReference = B2C30782230595FF0003000E /* SpreedlyShirtsUITests.xctest */;
+			productReference = B2C30782230595FF0003000E /* Spreedly-Sample-iOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -260,7 +260,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B2C3075E230595FD0003000E /* Build configuration list for PBXProject "SpreedlyShirts" */;
+			buildConfigurationList = B2C3075E230595FD0003000E /* Build configuration list for PBXProject "Spreedly-Sample-iOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -273,9 +273,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B2C30762230595FD0003000E /* SpreedlyShirts */,
-				B2C30776230595FF0003000E /* SpreedlyShirtsTests */,
-				B2C30781230595FF0003000E /* SpreedlyShirtsUITests */,
+				B2C30762230595FD0003000E /* Spreedly-Sample-iOS */,
+				B2C30776230595FF0003000E /* Spreedly-Sample-iOSTests */,
+				B2C30781230595FF0003000E /* Spreedly-Sample-iOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -428,12 +428,12 @@
 /* Begin PBXTargetDependency section */
 		B2C30779230595FF0003000E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B2C30762230595FD0003000E /* SpreedlyShirts */;
+			target = B2C30762230595FD0003000E /* Spreedly-Sample-iOS */;
 			targetProxy = B2C30778230595FF0003000E /* PBXContainerItemProxy */;
 		};
 		B2C30784230595FF0003000E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B2C30762230595FD0003000E /* SpreedlyShirts */;
+			target = B2C30762230595FD0003000E /* Spreedly-Sample-iOS */;
 			targetProxy = B2C30783230595FF0003000E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -627,7 +627,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpreedlyShirts.app/SpreedlyShirts";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spreedly-Sample-iOS.app/Spreedly-Sample-iOS";
 			};
 			name = Debug;
 		};
@@ -648,7 +648,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpreedlyShirts.app/SpreedlyShirts";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spreedly-Sample-iOS.app/Spreedly-Sample-iOS";
 			};
 			name = Release;
 		};
@@ -695,7 +695,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B2C3075E230595FD0003000E /* Build configuration list for PBXProject "SpreedlyShirts" */ = {
+		B2C3075E230595FD0003000E /* Build configuration list for PBXProject "Spreedly-Sample-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2C30789230595FF0003000E /* Debug */,
@@ -704,7 +704,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2C3078B230595FF0003000E /* Build configuration list for PBXNativeTarget "SpreedlyShirts" */ = {
+		B2C3078B230595FF0003000E /* Build configuration list for PBXNativeTarget "Spreedly-Sample-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2C3078C230595FF0003000E /* Debug */,
@@ -713,7 +713,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2C3078E230595FF0003000E /* Build configuration list for PBXNativeTarget "SpreedlyShirtsTests" */ = {
+		B2C3078E230595FF0003000E /* Build configuration list for PBXNativeTarget "Spreedly-Sample-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2C3078F230595FF0003000E /* Debug */,
@@ -722,7 +722,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B2C30791230595FF0003000E /* Build configuration list for PBXNativeTarget "SpreedlyShirtsUITests" */ = {
+		B2C30791230595FF0003000E /* Build configuration list for PBXNativeTarget "Spreedly-Sample-iOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2C30792230595FF0003000E /* Debug */,

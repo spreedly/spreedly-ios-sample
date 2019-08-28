@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Example
+//  Spreedly-Sample-iOS
 //
 //  Created by David Santoso on 10/8/15.
 //  Copyright © 2015 Spreedly Inc. All rights reserved.
