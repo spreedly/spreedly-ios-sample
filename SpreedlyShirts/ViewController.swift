@@ -30,8 +30,7 @@ class ViewController: UIViewController, PKPaymentAuthorizationViewControllerDele
             print(response)
             let txToken = response["transaction"]["token"].stringValue
             
-            let spreedly = Spreedly()
-            let lifecycle = spreedly.threeDsInit(rawThreeDsContext: response["transaction"]["three_ds_context"].stringValue)
+            let lifecycle = Spreedly.instance.threeDsInit(rawThreeDsContext: response["transaction"]["three_ds_context"].stringValue)
             
             lifecycle.getDeviceFingerprintData(fingerprintDataCompletion: { fingerprintData in
                 print("==================== FINGERPRINT ====================")
