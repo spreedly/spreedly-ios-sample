@@ -23,28 +23,39 @@ class ViewController: UIViewController, PKPaymentAuthorizationViewControllerDele
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+        
     @IBAction func handleTest3DSFlowTapped(_ sender: AnyObject) {
-        SpreedlyBackend.purchase(amount: 12100, purchaseCompletion: { response in
-            print("==================== PURCHASE ====================")
-            print(response)
-            let txToken = response["transaction"]["token"].stringValue
-            
-            let lifecycle = Spreedly.instance.threeDsInit(rawThreeDsContext: response["transaction"]["three_ds_context"].stringValue)
-            
-            lifecycle.getDeviceFingerprintData(fingerprintDataCompletion: { fingerprintData in
-                print("==================== FINGERPRINT ====================")
-                print(fingerprintData)
-                SpreedlyBackend.purchase_continue(transactionToken: txToken, threeDSData: fingerprintData, continueCompletion: { response in
-                    
-                    let challengeContext = response["transaction"]["three_ds_context"].stringValue
-                    lifecycle.doChallenge(rawThreeDsContext: challengeContext, challengeCompletion: { result in
-                        print("==================== CHALLENGE ====================")
-                        print(result)
-                    })
-                })
-            })
-        })
+//        SpreedlyBackend.purchase(amount: 12100, purchaseCompletion: { response in
+//            let txToken = response["transaction"]["token"].stringValue
+//            let nextAction = response["transaction"]["required_action"].stringValue
+//            let lifecycle = Spreedly.instance.threeDsInit(rawThreeDsContext: response["transaction"]["three_ds_context"].stringValue)
+//            
+//            if nextAction == "device_fingerprint" {
+//                lifecycle.getDeviceFingerprintData(fingerprintDataCompletion: { fingerprintData in
+//                    SpreedlyBackend.purchase_continue(transactionToken: txToken, threeDSData: fingerprintData, continueCompletion: { response in
+//                        let challengeContext = response["transaction"]["three_ds_context"].stringValue
+//                        
+//                        lifecycle.doChallenge(rawThreeDsContext: challengeContext, challengeCompletion: { challengeData in
+//                            SpreedlyBackend.purchase_continue(transactionToken: txToken, threeDSData: challengeData, continueCompletion: { response in
+//                                print("==================== FINAL RESULT ====================")
+//                                print(response)
+//                            })
+//                        })
+//                    })
+//                })
+//            } else if nextAction == "challenge" {
+//                let challengeContext = response["transaction"]["three_ds_context"].stringValue
+//                
+//                lifecycle.doChallenge(rawThreeDsContext: challengeContext, challengeCompletion: { challengeData in
+//                    SpreedlyBackend.purchase_continue(transactionToken: txToken, threeDSData: challengeData, continueCompletion: { response in
+//                        print("==================== FINAL RESULT ====================")
+//                        print(response)
+//                    })
+//                })
+//            } else {
+//                print(response["message"].stringValue)
+//            }
+//        })
     }
     
     @IBAction func handleApplePayTapped(_ sender: AnyObject) {

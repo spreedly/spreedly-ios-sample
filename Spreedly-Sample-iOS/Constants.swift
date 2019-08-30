@@ -8,8 +8,10 @@
 
 import Foundation
 
-//let environmentKey = "XxdaVnvVbZwLEyJ2rpK9Tk4mJNF"
-//let backendChargeURL = "https://core.spreedly.com"
-//let backendChargeURL = "http://localhost:3001"
 let appleMerchantId = "merchant.com.your-company.testing"
+//let baseURL = "https://core.spreedly.com/v1"
 
+let baseURL = "https://jrowe-core.ngrok.io/v1"
+
+let environmentKey = "MtmtPae9LjmlaOrWPASY6q1Bwsb"
+let environmentSecret = "4qoltIct2TIArY9Qm1EoNUeKFei1OTPDKg74Sn85p7xbnIs93gY4n8P4JkPAcJ1h"

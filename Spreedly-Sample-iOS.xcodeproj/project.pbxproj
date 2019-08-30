@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9B2A77F0E23FD80930809647 /* Pods_Spreedly_Sample_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2A8B6A81F0C258C01CAF3F /* Pods_Spreedly_Sample_iOS.framework */; };
-		9DCA2A52230C872400799E89 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA2A51230C872400799E89 /* Secrets.swift */; };
 		9DCA2A55230C89FA00799E89 /* SpreedlyBackend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCA2A54230C89FA00799E89 /* SpreedlyBackend.swift */; };
 		B28450A42305A3BB007A91B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28450A32305A3BB007A91B6 /* Constants.swift */; };
 		B28450A62305A653007A91B6 /* CreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28450A52305A653007A91B6 /* CreditCardViewController.swift */; };
@@ -23,7 +22,6 @@
 		6A9717BA91CA15FDE0B07DBF /* Pods-Spreedly-Sample-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spreedly-Sample-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Spreedly-Sample-iOS/Pods-Spreedly-Sample-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		93000438391FB4393B69ECF0 /* Pods-SpreedlyShirts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirts.release.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts.release.xcconfig"; sourceTree = "<group>"; };
 		933142F17466667D44306DFC /* Pods-SpreedlyShirts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreedlyShirts.debug.xcconfig"; path = "Target Support Files/Pods-SpreedlyShirts/Pods-SpreedlyShirts.debug.xcconfig"; sourceTree = "<group>"; };
-		9DCA2A51230C872400799E89 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		9DCA2A54230C89FA00799E89 /* SpreedlyBackend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreedlyBackend.swift; sourceTree = "<group>"; };
 		AD2A8B6A81F0C258C01CAF3F /* Pods_Spreedly_Sample_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spreedly_Sample_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B28450A32305A3BB007A91B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 				B2C3076D230595FF0003000E /* Assets.xcassets */,
 				B2C3076F230595FF0003000E /* LaunchScreen.storyboard */,
 				B2C30772230595FF0003000E /* Info.plist */,
-				9DCA2A51230C872400799E89 /* Secrets.swift */,
 				9DCA2A54230C89FA00799E89 /* SpreedlyBackend.swift */,
 			);
 			path = "Spreedly-Sample-iOS";
@@ -220,7 +217,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2C30769230595FD0003000E /* ViewController.swift in Sources */,
-				9DCA2A52230C872400799E89 /* Secrets.swift in Sources */,
 				B28450A62305A653007A91B6 /* CreditCardViewController.swift in Sources */,
 				B2C30767230595FD0003000E /* AppDelegate.swift in Sources */,
 				9DCA2A55230C89FA00799E89 /* SpreedlyBackend.swift in Sources */,
