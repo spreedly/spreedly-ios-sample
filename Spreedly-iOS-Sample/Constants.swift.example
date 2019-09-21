@@ -9,7 +9,7 @@
 import Foundation
 
 let appleMerchantId = "merchant.com.your-company.testing"
-let baseURL = "https://core.spreedly.com/v1"
 
-let environmentKey = "REPLACE ME"
-let environmentSecret = "REPLACE ME"
+let baseURL = "https://core.spreedly.com/v1"
+let environmentKey = ""
+let environmentSecret = ""

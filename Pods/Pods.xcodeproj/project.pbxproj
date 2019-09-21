@@ -19,48 +19,57 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		0C3AAC39285CDB2CFA5CACAD15EDA8F7 /* RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE4B12AE00934EB3BF4831A0CFC509F /* RequestSerializer.swift */; };
 		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF45F972BC9274B4B81624D60BC9FB8B /* ParameterEncoding.swift */; };
 		0FF9E4A6ECB20BDBDB7E9C1EC772306A /* Pods-Spreedly-iOS-Sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10A2019FAD42AA0B7A17B1F52EEAC045 /* Pods-Spreedly-iOS-Sample-dummy.m */; };
 		11550E65C63F5DAD8CBD16126FEB4F0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0570477FB03A97FC79B1D41A902F13D /* Foundation.framework */; };
 		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D471FA23993538CDAEDD2C80E7EFDB9 /* Notifications.swift */; };
-		17747508EF296B43B490573EB58AB6B8 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF2A177438111B19F1F49152977B8419 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19296A4B8E02CDCFE88EC37800AF9F83 /* TransactionLifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FA5084A2C3F8BCBC403F7A649BA568 /* TransactionLifecycle.swift */; };
+		189E897B1659E0C8C3656BC798E8F0E8 /* AdyenLifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1572190530234A4772446E652BED3602 /* AdyenLifecycle.swift */; };
 		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F212259A14CDDDE3E7BC009B03A64A7C /* Alamofire-dummy.m */; };
 		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF899F244C60CF2A77EFB6BF6DCAE26E /* MultipartFormData.swift */; };
-		1F0F9B3CA402CBFFCA5053AEC5BC8522 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7DFB14D1C6863636A118D1382C4539F /* SwiftyJSON.framework */; };
-		2182A71E54EBFDDF2AE823B879EF2F2F /* Spreedly-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C4842AC7F2A8597BEA715CA66ECBEB /* Spreedly-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		212BA5049D9C7B7CC80E51C19492A912 /* Spreedly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CBF7FE05D878486DEB4DAC4F7EFF0B /* Spreedly-dummy.m */; };
 		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC5CA05659D777901019774D5A2FC5D /* SessionDelegate.swift */; };
-		303CA0B4E5E38B8B2362EE2B38FD5894 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0570477FB03A97FC79B1D41A902F13D /* Foundation.framework */; };
+		300343D24D6A003DB69E5A64D0340867 /* RedirectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F38A922D208E36D3EDFD92A994922BD /* RedirectViewController.swift */; };
 		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B949FA8175A59F13AA164AFE9063900F /* NetworkReachabilityManager.swift */; };
-		3C0FC0A29CD523AFB6784D02E6948FA5 /* Spreedly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A838EE7660394704433BB6CC8C2DAD /* Spreedly.swift */; };
-		4D9226A3D3BA9D391DCCD910E626DDDB /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E90025CF853AD6B42BE773A8873AEA /* SwiftyJSON.swift */; };
+		3D2227108553129C7D3767E2E9DA5B8E /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF2A177438111B19F1F49152977B8419 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40D093109915CEC5FBCC39248D92DB23 /* TransactionLifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBEABE0D7B1D9D42A44AA88AD8CAC7B /* TransactionLifecycle.swift */; };
+		4AC9429D004CC9667EE20A529E3EE565 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E90025CF853AD6B42BE773A8873AEA /* SwiftyJSON.swift */; };
 		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6E9D3459F66B3E0D172C250DDDC044 /* Validation.swift */; };
+		63DF73323CAB576F4205A78D2929DB0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0570477FB03A97FC79B1D41A902F13D /* Foundation.framework */; };
 		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444B727291962FDB83902179E885AC17 /* Result.swift */; };
+		653BB81BD26472786733E2A4AABD7BB8 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7DFB14D1C6863636A118D1382C4539F /* SwiftyJSON.framework */; };
 		6D769799FE865A6DACE9655B9C92E05D /* Pods-Spreedly-iOS-Sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CEA130B497930FAC0482CFF2E343CC7 /* Pods-Spreedly-iOS-Sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0570477FB03A97FC79B1D41A902F13D /* Foundation.framework */; };
-		78B1679E6EB069F273FAF255446DC01A /* AdyenLifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C104E8EC0BE4652D017DAE1E05B1911 /* AdyenLifecycle.swift */; };
-		82298092023C6591A64C0C451CA13F95 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A96329FB15A29DBCC3042A569CB2852 /* CreditCard.swift */; };
+		773AF5177104716583654CA8124545EE /* SpreedlyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A8EC2AB58ED1C35DD36DB3018D0EE /* SpreedlyAPIClient.swift */; };
+		80E9F2CD8ACDD11984E7A5C9FDAC059E /* Spreedly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13DD8EA1F6D5485B1D49DD93B69C887 /* Spreedly.swift */; };
 		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E2E557D9542E564E1079C8AA84DE7E /* AFError.swift */; };
-		88410D3BBC5B35D518264322389572B7 /* Spreedly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2B2D79315DF57D50649256F71EB90B /* Spreedly-dummy.m */; };
+		92FBDD2D167D6B16485F89041CE95576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0570477FB03A97FC79B1D41A902F13D /* Foundation.framework */; };
 		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB04216F698C2662B94E8392BD18AA9C /* SessionManager.swift */; };
 		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114EFFD19CB3D386A27D1437770AF47F /* Timeline.swift */; };
-		972585FEE1C6D153ECC2697635E17440 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0570477FB03A97FC79B1D41A902F13D /* Foundation.framework */; };
+		96A62A5C9AA419E949DCADC46A1E6308 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDFD1F82B23E935E7961D21AE2994EA /* SwiftyJSON-dummy.m */; };
 		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255BDA953EB036D99BD92BB478EB6357 /* Request.swift */; };
-		9BCFB7B898A3D1E3F2E279413B288D20 /* SpreedlyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAAEE95422D001E26EF9BECEBAA06DA /* SpreedlyAPIClient.swift */; };
+		9997F61E0A5EFCC1981F20F5C3C601E5 /* FullscreenWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7082203E9875430A81FCB9AB2DC1CC /* FullscreenWebView.swift */; };
+		A3839EB8807F940BBB71AD27938AFE4E /* Spreedly-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB867A871192404BDC4C3B1C0E228B41 /* Spreedly-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC815BB1F3AA7C445B214F2D7BA854 /* TaskDelegate.swift */; };
-		BC5EE95F30309970453035E54E60169F /* RequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDED94B03ACDF848997CC4B80F582D39 /* RequestSerializer.swift */; };
 		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF10BC501EBAE82DC5D0F910563E3E8D /* Alamofire.swift */; };
+		CB82BFC38FA7E50ED9E092AB0AD1755A /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A0A813530ED9476CC176E84FDCF072 /* PaymentMethod.swift */; };
 		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71819451956E43F8238FB3374FB75A9 /* DispatchQueue+Alamofire.swift */; };
 		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78849782C8306B96F75D9F520494EB48 /* Response.swift */; };
 		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B4E5A17EC10799D8A68F1023F14420 /* ResponseSerialization.swift */; };
 		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61873E5ADB8487592F4C8006B6C5B3A /* ServerTrustPolicy.swift */; };
-		F341EC7ED0B238F0C4A611991F61944C /* SpreedlyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7158DD88FB788E695C9F43CD6D90C7A1 /* SpreedlyError.swift */; };
+		F2525B3707D1C7956E7F02097853A4B4 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739ECA009D30957F60EC59EDB44DA9BB /* CreditCard.swift */; };
+		F2E03A6B3DCA5AE0C96185B066847A1E /* SpreedlyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82767926988B4A7E86DA074889306018 /* SpreedlyError.swift */; };
 		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1FECD0FCE8CF9590C91992619E8FB09 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA97949EA8F58DC873341E8E904B9E63 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDFD1F82B23E935E7961D21AE2994EA /* SwiftyJSON-dummy.m */; };
-		FCC9E18DE3DCBAC2FD0BE7616FFEA7EF /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BAAD717F4B5CA5A4150421BF142677 /* PaymentMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		073307C80F76430D000A135177549BE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
+			remoteInfo = SwiftyJSON;
+		};
 		47E88BA9859AFA62FCECF90B9618088A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -75,19 +84,12 @@
 			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
 			remoteInfo = SwiftyJSON;
 		};
-		7F84501249301B25AAA55FAAA4D625AD /* PBXContainerItemProxy */ = {
+		7F6DA2BEEBDCD42D9136CE3D151FEC94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AC19F10B2BC2AC4E94CD31A1DBFE217F;
 			remoteInfo = Adyen3DS2;
-		};
-		82D59BAE9510B54E9E3C467DC4BF301A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
-			remoteInfo = SwiftyJSON;
 		};
 		89B81C925A4C5EA3AD30A2B500F38AB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -106,36 +108,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BAAEE95422D001E26EF9BECEBAA06DA /* SpreedlyAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpreedlyAPIClient.swift; path = Spreedly/SpreedlyAPIClient.swift; sourceTree = "<group>"; };
 		10A2019FAD42AA0B7A17B1F52EEAC045 /* Pods-Spreedly-iOS-Sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Spreedly-iOS-Sample-dummy.m"; sourceTree = "<group>"; };
 		114EFFD19CB3D386A27D1437770AF47F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		151EEC8FF0C1898C14C268101AAF4CD3 /* Pods-Spreedly-iOS-Sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Spreedly-iOS-Sample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		16A838EE7660394704433BB6CC8C2DAD /* Spreedly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spreedly.swift; path = Spreedly/Spreedly.swift; sourceTree = "<group>"; };
+		1572190530234A4772446E652BED3602 /* AdyenLifecycle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdyenLifecycle.swift; path = Spreedly/AdyenLifecycle.swift; sourceTree = "<group>"; };
 		17E90025CF853AD6B42BE773A8873AEA /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
-		1C104E8EC0BE4652D017DAE1E05B1911 /* AdyenLifecycle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdyenLifecycle.swift; path = Spreedly/AdyenLifecycle.swift; sourceTree = "<group>"; };
-		1EAC17700019F4C525A9BEE0CEC472A6 /* Spreedly-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Spreedly-Info.plist"; sourceTree = "<group>"; };
+		1F38A922D208E36D3EDFD92A994922BD /* RedirectViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectViewController.swift; path = Spreedly/RedirectViewController.swift; sourceTree = "<group>"; };
 		1F9410D300DEC36ABE95D85A002FEA4A /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
 		255BDA953EB036D99BD92BB478EB6357 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		2582C2A17D79C8E70744A280BBC5A7EF /* Spreedly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spreedly.xcconfig; sourceTree = "<group>"; };
-		27C4842AC7F2A8597BEA715CA66ECBEB /* Spreedly-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spreedly-umbrella.h"; sourceTree = "<group>"; };
-		2A96329FB15A29DBCC3042A569CB2852 /* CreditCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCard.swift; path = Spreedly/CreditCard.swift; sourceTree = "<group>"; };
 		2CEA130B497930FAC0482CFF2E343CC7 /* Pods-Spreedly-iOS-Sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Spreedly-iOS-Sample-umbrella.h"; sourceTree = "<group>"; };
 		37FFBD786680F51F6A2B2EFF16471EE8 /* Pods-Spreedly-iOS-Sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Spreedly-iOS-Sample-frameworks.sh"; sourceTree = "<group>"; };
-		3B4758223255626EA7917652ECE7141B /* Spreedly.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Spreedly.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		42BAAD717F4B5CA5A4150421BF142677 /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentMethod.swift; path = Spreedly/PaymentMethod.swift; sourceTree = "<group>"; };
 		444B727291962FDB83902179E885AC17 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		4D1C30737828E97D5BF5A68FA6F519E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		484A8EC2AB58ED1C35DD36DB3018D0EE /* SpreedlyAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpreedlyAPIClient.swift; path = Spreedly/SpreedlyAPIClient.swift; sourceTree = "<group>"; };
+		5398FFA48612374D51E399823544C8E6 /* Spreedly.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Spreedly.modulemap; sourceTree = "<group>"; };
 		57E2E557D9542E564E1079C8AA84DE7E /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE4B12AE00934EB3BF4831A0CFC509F /* RequestSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestSerializer.swift; path = Spreedly/RequestSerializer.swift; sourceTree = "<group>"; };
 		5FC5CA05659D777901019774D5A2FC5D /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		68B4E5A17EC10799D8A68F1023F14420 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		7158DD88FB788E695C9F43CD6D90C7A1 /* SpreedlyError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpreedlyError.swift; path = Spreedly/SpreedlyError.swift; sourceTree = "<group>"; };
+		739ECA009D30957F60EC59EDB44DA9BB /* CreditCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreditCard.swift; path = Spreedly/CreditCard.swift; sourceTree = "<group>"; };
 		754E2641425D5D7E659DB89D5C7DCC22 /* Pods-Spreedly-iOS-Sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Spreedly-iOS-Sample-acknowledgements.plist"; sourceTree = "<group>"; };
 		78849782C8306B96F75D9F520494EB48 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		7D471FA23993538CDAEDD2C80E7EFDB9 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		816C39BE660E920145B02C7A1F6E1FE6 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		8188F65D7A52E3CF05EEBABA662275B4 /* Pods-Spreedly-iOS-Sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Spreedly-iOS-Sample.modulemap"; sourceTree = "<group>"; };
-		85C77BBB7C72B7EE687D8EBE29597AE8 /* Spreedly-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spreedly-prefix.pch"; sourceTree = "<group>"; };
+		82767926988B4A7E86DA074889306018 /* SpreedlyError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpreedlyError.swift; path = Spreedly/SpreedlyError.swift; sourceTree = "<group>"; };
+		857B805155B50A499B3C828760372828 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		92A94F5EEBB93B7918D83D48C43BE5DD /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		93D87CE0F1D36FE34840BFB9A28B91EE /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		9703E20710C289C238B48CAC09AC918C /* Pods-Spreedly-iOS-Sample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Spreedly-iOS-Sample-Info.plist"; sourceTree = "<group>"; };
@@ -144,32 +142,38 @@
 		9DDFD1F82B23E935E7961D21AE2994EA /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		9F41D054C6855767D99F0FAB63D898E6 /* Adyen3DS2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Adyen3DS2.xcconfig; sourceTree = "<group>"; };
 		A3094AF66A23809DC7CE574C326F10D2 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		A37423D5D5E9912EA5043FE6951D0990 /* Spreedly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Spreedly.xcconfig; sourceTree = "<group>"; };
 		A4D3790BB990AE0208905613A3CBA8F6 /* Adyen3DS2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Adyen3DS2.framework; path = Dynamic/Adyen3DS2.framework; sourceTree = "<group>"; };
-		AE2B2D79315DF57D50649256F71EB90B /* Spreedly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spreedly-dummy.m"; sourceTree = "<group>"; };
-		AE7BD709010597D339C3CCBF8B856774 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A9A0A813530ED9476CC176E84FDCF072 /* PaymentMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentMethod.swift; path = Spreedly/PaymentMethod.swift; sourceTree = "<group>"; };
 		AF3278182EE35E3BD0820F0DE425B990 /* Pods-Spreedly-iOS-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Spreedly-iOS-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		B1FECD0FCE8CF9590C91992619E8FB09 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		B464F018F6FBE9DC3FAD99BC9DB987D4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B949FA8175A59F13AA164AFE9063900F /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		BB867A871192404BDC4C3B1C0E228B41 /* Spreedly-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spreedly-umbrella.h"; sourceTree = "<group>"; };
+		BE707A02510DF35F65CA89AC00EF7C00 /* Spreedly.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Spreedly.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF2A177438111B19F1F49152977B8419 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		C13DD8EA1F6D5485B1D49DD93B69C887 /* Spreedly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spreedly.swift; path = Spreedly/Spreedly.swift; sourceTree = "<group>"; };
 		C9E82DB503CAF1C308AABF6F7AD4BBAC /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		CA6E9D3459F66B3E0D172C250DDDC044 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		CADA9265487BE2872EDC84357F6ADC3D /* Pods-Spreedly-iOS-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Spreedly-iOS-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		CBBEABE0D7B1D9D42A44AA88AD8CAC7B /* TransactionLifecycle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransactionLifecycle.swift; path = Spreedly/TransactionLifecycle.swift; sourceTree = "<group>"; };
 		CDDC815BB1F3AA7C445B214F2D7BA854 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		CF33B189F649796B6B64B9F61F225FC6 /* Pods_Spreedly_iOS_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Spreedly_iOS_Sample.framework; path = "Pods-Spreedly-iOS-Sample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF45F972BC9274B4B81624D60BC9FB8B /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		D0570477FB03A97FC79B1D41A902F13D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D4A24DF8DCEC316239F73BF33FF8566F /* Spreedly.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Spreedly.modulemap; sourceTree = "<group>"; };
+		D2CBF7FE05D878486DEB4DAC4F7EFF0B /* Spreedly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Spreedly-dummy.m"; sourceTree = "<group>"; };
 		D71819451956E43F8238FB3374FB75A9 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		D7DFB14D1C6863636A118D1382C4539F /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA84DD308B031AB34157DDBA58DFF360 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
-		DDED94B03ACDF848997CC4B80F582D39 /* RequestSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestSerializer.swift; path = Spreedly/RequestSerializer.swift; sourceTree = "<group>"; };
+		DB53FD8BAA95FB04B8AD7D8E675BCC3B /* Spreedly-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Spreedly-Info.plist"; sourceTree = "<group>"; };
 		DF10BC501EBAE82DC5D0F910563E3E8D /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E463B5AF0F90232C83745B0FBC0A0188 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		E61873E5ADB8487592F4C8006B6C5B3A /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		E8FA5084A2C3F8BCBC403F7A649BA568 /* TransactionLifecycle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransactionLifecycle.swift; path = Spreedly/TransactionLifecycle.swift; sourceTree = "<group>"; };
 		EB04216F698C2662B94E8392BD18AA9C /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		F212259A14CDDDE3E7BC009B03A64A7C /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		F4FD3AD3515E3A0841A64BBC36861CA3 /* Spreedly-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Spreedly-prefix.pch"; sourceTree = "<group>"; };
+		FE7082203E9875430A81FCB9AB2DC1CC /* FullscreenWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FullscreenWebView.swift; path = Spreedly/FullscreenWebView.swift; sourceTree = "<group>"; };
 		FF899F244C60CF2A77EFB6BF6DCAE26E /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,20 +186,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0E01B2945E81584AB33DA35DFBA13F98 /* Frameworks */ = {
+		A3C7F021460C56475DE09879F7B09F28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				303CA0B4E5E38B8B2362EE2B38FD5894 /* Foundation.framework in Frameworks */,
-				1F0F9B3CA402CBFFCA5053AEC5BC8522 /* SwiftyJSON.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27530CFBE9D3E295FAD87706937AF2B5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				972585FEE1C6D153ECC2697635E17440 /* Foundation.framework in Frameworks */,
+				63DF73323CAB576F4205A78D2929DB0C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +199,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				11550E65C63F5DAD8CBD16126FEB4F0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6C7784323F997AB2A00659CCEFBBEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92FBDD2D167D6B16485F89041CE95576 /* Foundation.framework in Frameworks */,
+				653BB81BD26472786733E2A4AABD7BB8 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,16 +223,6 @@
 				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0D54E845245CF8185F382535EB81E169 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AE7BD709010597D339C3CCBF8B856774 /* LICENSE */,
-				4D1C30737828E97D5BF5A68FA6F519E2 /* README.md */,
-				3B4758223255626EA7917652ECE7141B /* Spreedly.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		1DC69812F317E23D46F2BD3FD6F2E056 /* Support Files */ = {
@@ -252,6 +246,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Adyen3DS2";
+			sourceTree = "<group>";
+		};
+		325C85F4A6F11389CCCE3CD303576DFE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DECC1F4BAAB0E8AF5AB43405B6097EC /* Spreedly */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		3332091EA3E4A33CF786D5EE10D97922 /* Support Files */ = {
@@ -288,24 +290,6 @@
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
-		7A29495EAE744B98651BFD79D3263200 /* Spreedly */ = {
-			isa = PBXGroup;
-			children = (
-				1C104E8EC0BE4652D017DAE1E05B1911 /* AdyenLifecycle.swift */,
-				2A96329FB15A29DBCC3042A569CB2852 /* CreditCard.swift */,
-				42BAAD717F4B5CA5A4150421BF142677 /* PaymentMethod.swift */,
-				DDED94B03ACDF848997CC4B80F582D39 /* RequestSerializer.swift */,
-				16A838EE7660394704433BB6CC8C2DAD /* Spreedly.swift */,
-				0BAAEE95422D001E26EF9BECEBAA06DA /* SpreedlyAPIClient.swift */,
-				7158DD88FB788E695C9F43CD6D90C7A1 /* SpreedlyError.swift */,
-				E8FA5084A2C3F8BCBC403F7A649BA568 /* TransactionLifecycle.swift */,
-				0D54E845245CF8185F382535EB81E169 /* Pod */,
-				E534F3B72DAD2798A2774CAE25A6C502 /* Support Files */,
-			);
-			name = Spreedly;
-			path = "../../spreedly-ios";
-			sourceTree = "<group>";
-		};
 		7A3970E1938BC35D28721AFBD362EC25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,12 +316,24 @@
 			path = "Target Support Files/Pods-Spreedly-iOS-Sample";
 			sourceTree = "<group>";
 		};
-		AA23F32C38ADD34DF713C52EA876E705 /* Development Pods */ = {
+		8DECC1F4BAAB0E8AF5AB43405B6097EC /* Spreedly */ = {
 			isa = PBXGroup;
 			children = (
-				7A29495EAE744B98651BFD79D3263200 /* Spreedly */,
+				1572190530234A4772446E652BED3602 /* AdyenLifecycle.swift */,
+				739ECA009D30957F60EC59EDB44DA9BB /* CreditCard.swift */,
+				FE7082203E9875430A81FCB9AB2DC1CC /* FullscreenWebView.swift */,
+				A9A0A813530ED9476CC176E84FDCF072 /* PaymentMethod.swift */,
+				1F38A922D208E36D3EDFD92A994922BD /* RedirectViewController.swift */,
+				5EE4B12AE00934EB3BF4831A0CFC509F /* RequestSerializer.swift */,
+				C13DD8EA1F6D5485B1D49DD93B69C887 /* Spreedly.swift */,
+				484A8EC2AB58ED1C35DD36DB3018D0EE /* SpreedlyAPIClient.swift */,
+				82767926988B4A7E86DA074889306018 /* SpreedlyError.swift */,
+				CBBEABE0D7B1D9D42A44AA88AD8CAC7B /* TransactionLifecycle.swift */,
+				EE8FB33B47725F8E4C76B01E00B40D7F /* Pod */,
+				E5C5069B561D838888C417FA177DA8EE /* Support Files */,
 			);
-			name = "Development Pods";
+			name = Spreedly;
+			path = "../../spreedly-ios";
 			sourceTree = "<group>";
 		};
 		C76AACABBAFB8998609939BF02D2D7E7 /* Frameworks */ = {
@@ -352,7 +348,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AA23F32C38ADD34DF713C52EA876E705 /* Development Pods */,
+				325C85F4A6F11389CCCE3CD303576DFE /* Development Pods */,
 				7A3970E1938BC35D28721AFBD362EC25 /* Frameworks */,
 				FAA4DC030900A05903E8BCF208A7C071 /* Pods */,
 				0744524C0920C9FE8560943D27B9332D /* Products */,
@@ -386,15 +382,15 @@
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		E534F3B72DAD2798A2774CAE25A6C502 /* Support Files */ = {
+		E5C5069B561D838888C417FA177DA8EE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D4A24DF8DCEC316239F73BF33FF8566F /* Spreedly.modulemap */,
-				2582C2A17D79C8E70744A280BBC5A7EF /* Spreedly.xcconfig */,
-				AE2B2D79315DF57D50649256F71EB90B /* Spreedly-dummy.m */,
-				1EAC17700019F4C525A9BEE0CEC472A6 /* Spreedly-Info.plist */,
-				85C77BBB7C72B7EE687D8EBE29597AE8 /* Spreedly-prefix.pch */,
-				27C4842AC7F2A8597BEA715CA66ECBEB /* Spreedly-umbrella.h */,
+				5398FFA48612374D51E399823544C8E6 /* Spreedly.modulemap */,
+				A37423D5D5E9912EA5043FE6951D0990 /* Spreedly.xcconfig */,
+				D2CBF7FE05D878486DEB4DAC4F7EFF0B /* Spreedly-dummy.m */,
+				DB53FD8BAA95FB04B8AD7D8E675BCC3B /* Spreedly-Info.plist */,
+				F4FD3AD3515E3A0841A64BBC36861CA3 /* Spreedly-prefix.pch */,
+				BB867A871192404BDC4C3B1C0E228B41 /* Spreedly-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../spreedly-ios-sample/Pods/Target Support Files/Spreedly";
@@ -406,6 +402,16 @@
 				7D17642033DD597F227C9D45F0B2809C /* Pods-Spreedly-iOS-Sample */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EE8FB33B47725F8E4C76B01E00B40D7F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				857B805155B50A499B3C828760372828 /* LICENSE */,
+				B464F018F6FBE9DC3FAD99BC9DB987D4 /* README.md */,
+				BE707A02510DF35F65CA89AC00EF7C00 /* Spreedly.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		EF6601575AA2E6EE3B8B4994CB80AD6B /* iOS */ = {
@@ -445,19 +451,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF8401862C4994B6C92E0ADB4F19BA9B /* Headers */ = {
+		862CE62270439893A0CC88CE16B44374 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2182A71E54EBFDDF2AE823B879EF2F2F /* Spreedly-umbrella.h in Headers */,
+				3D2227108553129C7D3767E2E9DA5B8E /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0A08BE23EFD27A0FEF71DAD6F53CF37 /* Headers */ = {
+		F0DCFDA150B88DD81BB70B63101E199C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17747508EF296B43B490573EB58AB6B8 /* SwiftyJSON-umbrella.h in Headers */,
+				A3839EB8807F940BBB71AD27938AFE4E /* Spreedly-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,12 +494,12 @@
 		};
 		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B3BE5A635663BD0FE86FF0C59DD07D7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildConfigurationList = E42DD82AA7A4094E05E38AB14EB46CA0 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
 			buildPhases = (
-				E0A08BE23EFD27A0FEF71DAD6F53CF37 /* Headers */,
-				B295472769F7BB5CD82ED1BFDAFBA40A /* Sources */,
-				27530CFBE9D3E295FAD87706937AF2B5 /* Frameworks */,
-				5B1B186834969817D361BE2A110B7146 /* Resources */,
+				862CE62270439893A0CC88CE16B44374 /* Headers */,
+				3A106F6CEBD07FC6C2C483060E04C024 /* Sources */,
+				A3C7F021460C56475DE09879F7B09F28 /* Frameworks */,
+				B963F127B968017C1810086246690983 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -506,18 +512,18 @@
 		};
 		E71E2A22E5122A66E1BB32A965C55E3E /* Spreedly */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AB888F213C93CEC1110FC8D00FD2D249 /* Build configuration list for PBXNativeTarget "Spreedly" */;
+			buildConfigurationList = 77654DD222EE27912D8A96E3BA466540 /* Build configuration list for PBXNativeTarget "Spreedly" */;
 			buildPhases = (
-				DF8401862C4994B6C92E0ADB4F19BA9B /* Headers */,
-				6CD1C516F808026D625D7CE71D0F4086 /* Sources */,
-				0E01B2945E81584AB33DA35DFBA13F98 /* Frameworks */,
-				76188739A60F209926CD7A2AE4863BA5 /* Resources */,
+				F0DCFDA150B88DD81BB70B63101E199C /* Headers */,
+				9D02D147FB9C29074C52C9D95CC9FB7E /* Sources */,
+				EC6C7784323F997AB2A00659CCEFBBEC /* Frameworks */,
+				26C2B9B8D9545FE6651451072CA6DAEB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BAEB32A9FD9B2201732312395362E02A /* PBXTargetDependency */,
-				6B864B8ED6CCBB915CDD79B1242836EC /* PBXTargetDependency */,
+				9BCB9C4E60E508C6B0EB879954B9A92B /* PBXTargetDependency */,
+				E393558CB84710F150B017CBD0DE52A7 /* PBXTargetDependency */,
 			);
 			name = Spreedly;
 			productName = Spreedly;
@@ -580,6 +586,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26C2B9B8D9545FE6651451072CA6DAEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		473D3E892ABB6C798CFF290644259B34 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -587,14 +600,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B1B186834969817D361BE2A110B7146 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76188739A60F209926CD7A2AE4863BA5 /* Resources */ = {
+		B963F127B968017C1810086246690983 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -637,28 +643,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CD1C516F808026D625D7CE71D0F4086 /* Sources */ = {
+		3A106F6CEBD07FC6C2C483060E04C024 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78B1679E6EB069F273FAF255446DC01A /* AdyenLifecycle.swift in Sources */,
-				82298092023C6591A64C0C451CA13F95 /* CreditCard.swift in Sources */,
-				FCC9E18DE3DCBAC2FD0BE7616FFEA7EF /* PaymentMethod.swift in Sources */,
-				BC5EE95F30309970453035E54E60169F /* RequestSerializer.swift in Sources */,
-				88410D3BBC5B35D518264322389572B7 /* Spreedly-dummy.m in Sources */,
-				3C0FC0A29CD523AFB6784D02E6948FA5 /* Spreedly.swift in Sources */,
-				9BCFB7B898A3D1E3F2E279413B288D20 /* SpreedlyAPIClient.swift in Sources */,
-				F341EC7ED0B238F0C4A611991F61944C /* SpreedlyError.swift in Sources */,
-				19296A4B8E02CDCFE88EC37800AF9F83 /* TransactionLifecycle.swift in Sources */,
+				96A62A5C9AA419E949DCADC46A1E6308 /* SwiftyJSON-dummy.m in Sources */,
+				4AC9429D004CC9667EE20A529E3EE565 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B295472769F7BB5CD82ED1BFDAFBA40A /* Sources */ = {
+		9D02D147FB9C29074C52C9D95CC9FB7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA97949EA8F58DC873341E8E904B9E63 /* SwiftyJSON-dummy.m in Sources */,
-				4D9226A3D3BA9D391DCCD910E626DDDB /* SwiftyJSON.swift in Sources */,
+				189E897B1659E0C8C3656BC798E8F0E8 /* AdyenLifecycle.swift in Sources */,
+				F2525B3707D1C7956E7F02097853A4B4 /* CreditCard.swift in Sources */,
+				9997F61E0A5EFCC1981F20F5C3C601E5 /* FullscreenWebView.swift in Sources */,
+				CB82BFC38FA7E50ED9E092AB0AD1755A /* PaymentMethod.swift in Sources */,
+				300343D24D6A003DB69E5A64D0340867 /* RedirectViewController.swift in Sources */,
+				0C3AAC39285CDB2CFA5CACAD15EDA8F7 /* RequestSerializer.swift in Sources */,
+				212BA5049D9C7B7CC80E51C19492A912 /* Spreedly-dummy.m in Sources */,
+				80E9F2CD8ACDD11984E7A5C9FDAC059E /* Spreedly.swift in Sources */,
+				773AF5177104716583654CA8124545EE /* SpreedlyAPIClient.swift in Sources */,
+				F2E03A6B3DCA5AE0C96185B066847A1E /* SpreedlyError.swift in Sources */,
+				40D093109915CEC5FBCC39248D92DB23 /* TransactionLifecycle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -670,12 +678,6 @@
 			name = Spreedly;
 			target = E71E2A22E5122A66E1BB32A965C55E3E /* Spreedly */;
 			targetProxy = EC488DF6E89080F9E5DE8ECDBA42E9C9 /* PBXContainerItemProxy */;
-		};
-		6B864B8ED6CCBB915CDD79B1242836EC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
-			targetProxy = 82D59BAE9510B54E9E3C467DC4BF301A /* PBXContainerItemProxy */;
 		};
 		7AA1B5F776DB7354E18AD306B9B0E582 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -689,11 +691,11 @@
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
 			targetProxy = 89B81C925A4C5EA3AD30A2B500F38AB2 /* PBXContainerItemProxy */;
 		};
-		BAEB32A9FD9B2201732312395362E02A /* PBXTargetDependency */ = {
+		9BCB9C4E60E508C6B0EB879954B9A92B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Adyen3DS2;
 			target = AC19F10B2BC2AC4E94CD31A1DBFE217F /* Adyen3DS2 */;
-			targetProxy = 7F84501249301B25AAA55FAAA4D625AD /* PBXContainerItemProxy */;
+			targetProxy = 7F6DA2BEEBDCD42D9136CE3D151FEC94 /* PBXContainerItemProxy */;
 		};
 		D55AF66C0DFDC0B47A4C5641A757F488 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -701,81 +703,15 @@
 			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
 			targetProxy = 4D4F5C48B223D2EE4F0330E343D5DBC1 /* PBXContainerItemProxy */;
 		};
+		E393558CB84710F150B017CBD0DE52A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
+			targetProxy = 073307C80F76430D000A135177549BE5 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		020E9CA25247355350B6090BB3AB32F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3094AF66A23809DC7CE574C326F10D2 /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		15AEB9EAC5E65AD45F74A302152B5C96 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2582C2A17D79C8E70744A280BBC5A7EF /* Spreedly.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Spreedly/Spreedly-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Spreedly/Spreedly-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Spreedly/Spreedly.modulemap";
-				PRODUCT_MODULE_NAME = Spreedly;
-				PRODUCT_NAME = Spreedly;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		19DBF2E5894400E81C895F28E565BFED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9F41D054C6855767D99F0FAB63D898E6 /* Adyen3DS2.xcconfig */;
@@ -953,6 +889,41 @@
 			};
 			name = Release;
 		};
+		46BF63435E3DB0F72A479B9E5F577559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3094AF66A23809DC7CE574C326F10D2 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		53151ADD18FC43D9033DBD10555183C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF3278182EE35E3BD0820F0DE425B990 /* Pods-Spreedly-iOS-Sample.debug.xcconfig */;
@@ -1048,6 +1019,43 @@
 			};
 			name = Release;
 		};
+		ABA2C364A56D50A9C8FE26E5510A61CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A37423D5D5E9912EA5043FE6951D0990 /* Spreedly.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Spreedly/Spreedly-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spreedly/Spreedly-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Spreedly/Spreedly.modulemap";
+				PRODUCT_MODULE_NAME = Spreedly;
+				PRODUCT_NAME = Spreedly;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B63B8B9A3DC0B86B8560A3526C388A7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 816C39BE660E920145B02C7A1F6E1FE6 /* Alamofire.xcconfig */;
@@ -1083,7 +1091,43 @@
 			};
 			name = Debug;
 		};
-		C0DC31C3EECD3F2314CC811C0686714D /* Debug */ = {
+		DA3B6D6A0A5DC46B185AB94564AC347D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A37423D5D5E9912EA5043FE6951D0990 /* Spreedly.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Spreedly/Spreedly-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Spreedly/Spreedly-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Spreedly/Spreedly.modulemap";
+				PRODUCT_MODULE_NAME = Spreedly;
+				PRODUCT_NAME = Spreedly;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC0F7866550F53A39785E87838EB8602 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A3094AF66A23809DC7CE574C326F10D2 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
@@ -1113,42 +1157,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CB2A2599ECB869063AA59E5CBC04D374 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2582C2A17D79C8E70744A280BBC5A7EF /* Spreedly.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Spreedly/Spreedly-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Spreedly/Spreedly-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Spreedly/Spreedly.modulemap";
-				PRODUCT_MODULE_NAME = Spreedly;
-				PRODUCT_NAME = Spreedly;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1163,15 +1171,6 @@
 			buildConfigurations = (
 				53151ADD18FC43D9033DBD10555183C5 /* Debug */,
 				85C6849C8F975E5A8255CE8214C09A52 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3B3BE5A635663BD0FE86FF0C59DD07D7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C0DC31C3EECD3F2314CC811C0686714D /* Debug */,
-				020E9CA25247355350B6090BB3AB32F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1194,11 +1193,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AB888F213C93CEC1110FC8D00FD2D249 /* Build configuration list for PBXNativeTarget "Spreedly" */ = {
+		77654DD222EE27912D8A96E3BA466540 /* Build configuration list for PBXNativeTarget "Spreedly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15AEB9EAC5E65AD45F74A302152B5C96 /* Debug */,
-				CB2A2599ECB869063AA59E5CBC04D374 /* Release */,
+				DA3B6D6A0A5DC46B185AB94564AC347D /* Debug */,
+				ABA2C364A56D50A9C8FE26E5510A61CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42DD82AA7A4094E05E38AB14EB46CA0 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46BF63435E3DB0F72A479B9E5F577559 /* Debug */,
+				FC0F7866550F53A39785E87838EB8602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

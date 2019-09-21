@@ -66,7 +66,7 @@ class SpreedlyBackend {
             parameters["transaction"]?["three_ds_version"] = "2"
             parameters["transaction"]?["channel"] = "app"
             parameters["transaction"]?["callback_url"] = "https://example.com/callback"
-            parameters["transaction"]?["redirect_url"] = "https://example.com/redirect"
+            parameters["transaction"]?["redirect_url"] = "shirts://redirect"
         }
 
         Alamofire.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: headers)
